@@ -230,7 +230,7 @@
     <p class="show-desc">Pedro's brother Frank takes on the role of Colossus while simultaneously knowing nothing about Pietro or the Marvel Universe at large. A six-episode joy made by two brothers who loved each other very much.</p>
     <p class="show-meta">6 Episodes &nbsp;·&nbsp; July 2020</p>
     <div class="show-actions">
-      <a href="https://pedrogalicia.com/podcast/feed-colossus.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
+      <button class="btn btn-primary" onclick="copyFeed('https://pedrogalicia.com/podcast/feed-colossus.xml')" id="rssBtn">Copy RSS Feed</button>
       
       
     </div>
@@ -334,6 +334,21 @@ function closePlayer() {
 
 document.getElementById('playerClose').addEventListener('click', closePlayer);
 
+
+
+function copyFeed(url) {
+  navigator.clipboard.writeText(url).then(function() {
+    var btn = document.getElementById('rssBtn');
+    btn.textContent = 'Copied!';
+    btn.style.background = 'var(--gold)';
+    setTimeout(function() {
+      btn.textContent = 'Copy RSS Feed';
+      btn.style.background = '';
+    }, 2000);
+  }).catch(function() {
+    prompt('Copy this RSS feed URL:', url);
+  });
+}
 
 renderEpisodes(EPISODES);
 </script>

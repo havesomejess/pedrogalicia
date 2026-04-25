@@ -230,7 +230,7 @@
     <p class="show-desc">Taking place in the World Walkers Universe, The Other Ones is a hilarious actual play D&D podcast featuring a group of people that, when Destiny calls, hang up immediately.</p>
     <p class="show-meta">7 Episodes &nbsp;·&nbsp; November 2019 – January 2020</p>
     <div class="show-actions">
-      <a href="https://pedrogalicia.com/podcast/feed-otherones.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
+      <button class="btn btn-primary" onclick="copyFeed('https://pedrogalicia.com/podcast/feed-otherones.xml')" id="rssBtn">Copy RSS Feed</button>
       
       
     </div>
@@ -334,6 +334,21 @@ function closePlayer() {
 
 document.getElementById('playerClose').addEventListener('click', closePlayer);
 
+
+
+function copyFeed(url) {
+  navigator.clipboard.writeText(url).then(function() {
+    var btn = document.getElementById('rssBtn');
+    btn.textContent = 'Copied!';
+    btn.style.background = 'var(--gold)';
+    setTimeout(function() {
+      btn.textContent = 'Copy RSS Feed';
+      btn.style.background = '';
+    }, 2000);
+  }).catch(function() {
+    prompt('Copy this RSS feed URL:', url);
+  });
+}
 
 renderEpisodes(EPISODES);
 </script>

@@ -230,8 +230,8 @@
     <p class="show-desc">A funny 5th Edition Dungeons and Dragons actual play podcast featuring Pedro Galicia, a DM with over 20 years of experience, running campaigns inside his custom universe of homebrew content.</p>
     <p class="show-meta">194 Episodes &nbsp;·&nbsp; December 2016 – June 2021</p>
     <div class="show-actions">
-      <a href="https://pedrogalicia.com/podcast/feed.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
-      <a href="https://podcasts.apple.com/podcast/world-walkers/id1182835074" class="btn btn-outline" target="_blank" rel="noopener">Apple Podcasts</a>
+      <button class="btn btn-primary" onclick="copyFeed('https://pedrogalicia.com/podcast/feed.xml')" id="rssBtn">Copy RSS Feed</button>
+      <a href="https://podcasts.apple.com/us/podcast/world-walkers/id1182835074" class="btn btn-outline" target="_blank" rel="noopener">Apple Podcasts</a>
       <a href="https://open.spotify.com/show/3B9QDlYCHRhx9X9lTULDhm" class="btn btn-outline" target="_blank" rel="noopener">Spotify</a>
     </div>
   </div>
@@ -344,6 +344,21 @@ document.getElementById('playerClose').addEventListener('click', closePlayer);
       renderEpisodes(filtered);
     });
   });
+
+
+function copyFeed(url) {
+  navigator.clipboard.writeText(url).then(function() {
+    var btn = document.getElementById('rssBtn');
+    btn.textContent = 'Copied!';
+    btn.style.background = 'var(--gold)';
+    setTimeout(function() {
+      btn.textContent = 'Copy RSS Feed';
+      btn.style.background = '';
+    }, 2000);
+  }).catch(function() {
+    prompt('Copy this RSS feed URL:', url);
+  });
+}
 
 renderEpisodes(EPISODES);
 </script>

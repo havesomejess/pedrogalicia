@@ -230,7 +230,7 @@
     <p class="show-desc">Set in the Steam-Powered World of Cog — a planet of airships, gunslingers, ex-slave wargolems, and a shattered kingdom of magic.</p>
     <p class="show-meta">38 Episodes &nbsp;·&nbsp; October 2018 – July 2020</p>
     <div class="show-actions">
-      <a href="https://pedrogalicia.com/podcast/feed-cog.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
+      <button class="btn btn-primary" onclick="copyFeed('https://pedrogalicia.com/podcast/feed-cog.xml')" id="rssBtn">Copy RSS Feed</button>
       
       
     </div>
@@ -334,6 +334,21 @@ function closePlayer() {
 
 document.getElementById('playerClose').addEventListener('click', closePlayer);
 
+
+
+function copyFeed(url) {
+  navigator.clipboard.writeText(url).then(function() {
+    var btn = document.getElementById('rssBtn');
+    btn.textContent = 'Copied!';
+    btn.style.background = 'var(--gold)';
+    setTimeout(function() {
+      btn.textContent = 'Copy RSS Feed';
+      btn.style.background = '';
+    }, 2000);
+  }).catch(function() {
+    prompt('Copy this RSS feed URL:', url);
+  });
+}
 
 renderEpisodes(EPISODES);
 </script>
