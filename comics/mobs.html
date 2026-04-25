@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOBS — Pedro Galicia</title>
+  <meta name="description" content="MOBS — Pedro Galicia's first webcomic, published 2002–2003. 154 strips, made when he was 21 years old.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-deep:   #1a3a2a;
+      --green-mid:    #2d6a4f;
+      --green-bright: #52b788;
+      --green-pale:   #b7e4c7;
+      --gold:         #d4a843;
+      --ink:          #1a1a1a;
+      --parchment:    #faf7f0;
+      --white:        #ffffff;
+      --shadow:       rgba(26,58,42,0.15);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--parchment);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(26,58,42,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(82,183,136,0.2);
+    }
+    .nav-logo {
+      font-family: 'Cinzel', serif; font-weight: 900; font-size: 1.05rem;
+      color: var(--green-bright); text-decoration: none; letter-spacing: 0.05em;
+    }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      color: var(--green-pale); text-decoration: none;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    .comic-hero {
+      padding: 6rem 2rem 3rem;
+      background: var(--ink);
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .comic-hero::before {
+      content: 'MOBS'; position: absolute;
+      font-family: 'Cinzel', serif; font-weight: 900;
+      font-size: 18rem; color: rgba(255,255,255,0.02);
+      top: 50%; left: 50%; transform: translate(-50%,-50%);
+      white-space: nowrap; pointer-events: none;
+    }
+    .hero-eyebrow {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--green-bright); margin-bottom: 0.75rem; position: relative;
+    }
+    .hero-title {
+      font-family: 'Cinzel', serif; font-weight: 900;
+      font-size: clamp(3rem, 8vw, 7rem);
+      color: var(--white); margin-bottom: 1rem; line-height: 1;
+      position: relative;
+    }
+    .hero-desc {
+      font-size: 1.15rem; font-weight: 300; font-style: italic;
+      color: rgba(183,228,199,0.7); max-width: 560px; margin: 0 auto 0.75rem;
+      line-height: 1.65; position: relative;
+    }
+    .hero-meta {
+      font-family: 'Nunito', sans-serif; font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(255,255,255,0.3); position: relative;
+    }
+
+    .origin-note {
+      background: rgba(82,183,136,0.08);
+      border: 1px solid rgba(82,183,136,0.2);
+      border-radius: 4px; padding: 1rem 1.5rem;
+      max-width: 700px; margin: 2rem auto 0;
+      font-size: 0.95rem; color: rgba(183,228,199,0.8);
+      line-height: 1.6; position: relative;
+    }
+
+    /* Main layout */
+    .comic-layout {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      min-height: calc(100vh - 200px);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: var(--white);
+      border-right: 1px solid rgba(45,106,79,0.1);
+      padding: 1.5rem 0;
+      position: sticky; top: 60px;
+      height: calc(100vh - 60px);
+      overflow-y: auto;
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--green-pale); border-radius: 2px; }
+
+    .sidebar-heading {
+      font-family: 'Nunito', sans-serif; font-size: 0.65rem; font-weight: 700;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--green-mid); padding: 0.5rem 1.25rem 0.25rem;
+    }
+    .sidebar-item {
+      display: block; width: 100%;
+      font-family: 'Nunito', sans-serif; font-size: 0.78rem; font-weight: 600;
+      color: #444; text-align: left; background: none; border: none;
+      padding: 0.4rem 1.25rem; cursor: pointer;
+      transition: all 0.15s; text-decoration: none;
+      border-left: 3px solid transparent;
+    }
+    .sidebar-item:hover { background: rgba(232,245,238,0.6); color: var(--green-deep); border-left-color: var(--green-bright); }
+    .sidebar-item.active { background: rgba(232,245,238,0.8); color: var(--green-deep); border-left-color: var(--green-bright); font-weight: 700; }
+
+    .month-group { margin-bottom: 0.25rem; }
+    .month-label {
+      font-family: 'Nunito', sans-serif; font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: #aaa; padding: 0.5rem 1.25rem 0.1rem;
+    }
+
+    /* Viewer */
+    .viewer {
+      padding: 2rem;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .viewer-header {
+      width: 100%; max-width: 750px;
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.75rem;
+    }
+    .back-link {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--green-mid); text-decoration: none; transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--green-bright); }
+    .strip-date {
+      font-family: 'Cinzel', serif; font-size: 1rem; font-weight: 600;
+      color: var(--green-deep); text-align: center;
+    }
+    .strip-badge {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      background: var(--green-mid); color: var(--white);
+      padding: 0.2rem 0.6rem; border-radius: 2px;
+    }
+
+    .comic-frame {
+      width: 100%; max-width: 750px;
+      background: var(--white);
+      border-radius: 6px;
+      box-shadow: 0 4px 24px var(--shadow);
+      overflow: hidden; margin-bottom: 1.5rem;
+    }
+    .comic-img {
+      width: 100%; height: auto; display: block;
+      cursor: pointer;
+    }
+
+    .comic-nav {
+      display: flex; align-items: center; gap: 1rem;
+      width: 100%; max-width: 750px;
+      justify-content: center; margin-bottom: 1rem;
+    }
+    .nav-btn {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      background: var(--green-deep); color: var(--white);
+      border: none; padding: 0.65rem 1.4rem; border-radius: 3px;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .nav-btn:hover { background: var(--green-mid); }
+    .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .nav-btn:disabled:hover { background: var(--green-deep); }
+    .comic-counter {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      color: #888; min-width: 80px; text-align: center;
+    }
+    .key-hint {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem;
+      color: #aaa; text-align: center; margin-bottom: 1rem;
+    }
+    kbd {
+      background: #eee; border: 1px solid #ccc; border-radius: 3px;
+      padding: 0.1rem 0.4rem; font-size: 0.7rem;
+    }
+
+    /* Restart note for the last two comics */
+    .restart-note {
+      width: 100%; max-width: 750px;
+      background: rgba(212,168,67,0.1);
+      border: 1px solid rgba(212,168,67,0.3);
+      border-radius: 4px; padding: 1rem 1.25rem;
+      font-size: 0.95rem; font-style: italic;
+      color: #666; line-height: 1.6;
+      margin-bottom: 1.5rem; display: none;
+    }
+    .restart-note.visible { display: block; }
+
+    footer {
+      background: var(--ink); padding: 2.5rem 2rem; text-align: center; margin-top: 2rem;
+    }
+    .footer-name {
+      font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--white); margin-bottom: 0.4rem;
+    }
+    .footer-links {
+      display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin: 0.75rem 0;
+    }
+    .footer-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--green-bright); text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-copy { font-size: 0.8rem; color: rgba(255,255,255,0.2); margin-top: 0.5rem; }
+
+    @media (max-width: 768px) {
+      nav { padding: 0.75rem 1rem; }
+      .nav-links { gap: 0.75rem; }
+      .comic-layout { grid-template-columns: 1fr; }
+      .sidebar { position: static; height: auto; max-height: 200px; border-right: none; border-bottom: 1px solid rgba(45,106,79,0.1); }
+      .viewer { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">Pedro Galicia</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#podcasts">Podcasts</a></li>
+    <li><a href="../index.html#comics">Comics</a></li>
+  </ul>
+</nav>
+
+<div class="comic-hero">
+  <p class="hero-eyebrow">Pedro's First Webcomic</p>
+  <h1 class="hero-title">MOBS</h1>
+  <p class="hero-desc">Made when Pedro was 21 years old. 154 strips published between February 2002 and February 2003.</p>
+  <p class="hero-meta">154 strips · February 2002 – February 2003</p>
+  <div class="origin-note">
+    Where it all started. MOBS came before the podcasts, before Rule Zero, before the World Walkers Universe. This is Pedro at 21, making comics because he loved making things. The last two strips in the archive were made nearly two decades later, when he thought about bringing MOBS back.
+  </div>
+</div>
+
+<div class="comic-layout">
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-heading">By Month</div>
+    <div id="monthList"></div>
+    <div style="height:1px; background:rgba(45,106,79,0.08); margin:0.75rem 1.25rem;"></div>
+    <div class="sidebar-heading">Other Comics</div>
+    <a href="rule-zero.html" class="sidebar-item">Rule Zero (2012–2014)</a>
+    <a href="../index.html#podcasts" class="sidebar-item">🎙️ Podcasts</a>
+  </aside>
+
+  <main class="viewer">
+    <div class="viewer-header">
+      <a href="../index.html#comics" class="back-link">← All Comics</a>
+      <div class="strip-date" id="stripDate">Select a strip</div>
+      <div id="stripBadge"></div>
+    </div>
+
+    <div class="restart-note" id="restartNote">
+      ✨ These two strips were made by Pedro in the late 2010s — nearly 15 years after the original run — when he was thinking about bringing MOBS back.
+    </div>
+
+    <div class="comic-frame">
+      <img class="comic-img" id="comicImg" src="" alt="" onclick="nextComic()" title="Click to advance">
+    </div>
+
+    <div class="comic-nav">
+      <button class="nav-btn" id="prevBtn" onclick="prevComic()">← Prev</button>
+      <span class="comic-counter" id="comicCounter">1 / 154</span>
+      <button class="nav-btn" id="nextBtn" onclick="nextComic()">Next →</button>
+    </div>
+    <p class="key-hint">Use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate · Click image to advance</p>
+  </main>
+</div>
+
+<footer>
+  <div class="footer-name">Pedro Galicia</div>
+  <div class="footer-links">
+    <a href="rule-zero.html">Rule Zero</a>
+    <a href="../podcast/world-walkers.html">World Walkers</a>
+    <a href="../podcast/world-walkers-cog.html">Cog</a>
+    <a href="../podcast/colossus-vs-the-world.html">Colossus</a>
+    <a href="../index.html">Home</a>
+  </div>
+  <div class="footer-copy">© Pedro Galicia. Maintained with love by his family.</div>
+</footer>
+
+<script>
+// All 154 dated pages + 2 restart pages
+const DATED_PAGES = ["2002-02-11.jpg","2002-02-12.jpg","2002-02-13.jpg","2002-02-14.jpg","2002-02-15.jpg","2002-05-08.jpg","2002-05-09.jpg","2002-05-22.jpg","2002-05-23.jpg","2002-05-24.jpg","2002-05-30.jpg","2002-07-19.jpg","2002-07-23.jpg","2002-07-31.jpg","2002-09-18.jpg","2002-09-19.jpg","2002-09-20.jpg","2002-09-24.jpg","2002-09-25.jpg","2002-09-26.jpg","2002-10-15.jpg","2002-10-16.jpg","2002-10-17.jpg","2002-10-29.jpg","2002-12-03.jpg","2002-12-04.jpg","2002-12-06.jpg","2002-12-10.jpg","2002-12-12.jpg","2002-12-13.jpg","2002-12-17.jpg","2003-01-08.jpg","2003-01-09.jpg","2003-01-21.jpg","2003-01-22.jpg","2003-01-23.jpg","2003-01-24.jpg","2003-02-11.jpg","2003-02-25.jpg"];
+const RESTART_PAGES = ["MOBS001.png","MOBS003.png"];
+const ALL_PAGES = [...DATED_PAGES, ...RESTART_PAGES];
+const RESTART_START = DATED_PAGES.length;
+
+const COMICS_PATH = '../comics/MOBS/';
+let currentIndex = 0;
+
+function formatDate(filename) {
+  if (!filename.match(/^\d{4}-\d{2}-\d{2}/)) return 'Late 2010s Revival';
+  const [y, m, d] = filename.replace('.jpg','').split('-');
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return `${months[parseInt(m)-1]} ${parseInt(d)}, ${y}`;
+}
+
+function formatMonth(filename) {
+  if (!filename.match(/^\d{4}-\d{2}-\d{2}/)) return null;
+  const [y, m] = filename.split('-');
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return `${months[parseInt(m)-1]} ${y}`;
+}
+
+// Build sidebar month groups
+function buildSidebar() {
+  const container = document.getElementById('monthList');
+  let currentMonth = null;
+  let monthGroup = null;
+
+  DATED_PAGES.forEach((page, i) => {
+    const month = formatMonth(page);
+    if (month !== currentMonth) {
+      currentMonth = month;
+      const label = document.createElement('div');
+      label.className = 'month-label';
+      label.textContent = month;
+      container.appendChild(label);
+    }
+    const btn = document.createElement('button');
+    btn.className = 'sidebar-item';
+    btn.id = 'page-btn-' + i;
+    btn.textContent = formatDate(page);
+    btn.onclick = () => goTo(i);
+    container.appendChild(btn);
+  });
+
+  // Restart section
+  const restartLabel = document.createElement('div');
+  restartLabel.className = 'month-label';
+  restartLabel.style.color = '#c9a227';
+  restartLabel.textContent = '✨ Revival Strips';
+  container.appendChild(restartLabel);
+
+  RESTART_PAGES.forEach((page, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'sidebar-item';
+    btn.id = 'page-btn-' + (RESTART_START + i);
+    btn.textContent = `Revival Strip ${i + 1}`;
+    btn.onclick = () => goTo(RESTART_START + i);
+    container.appendChild(btn);
+  });
+}
+
+function goTo(index) {
+  currentIndex = index;
+  render();
+}
+
+function render() {
+  const page = ALL_PAGES[currentIndex];
+  const isRestart = currentIndex >= RESTART_START;
+  
+  document.getElementById('comicImg').src = COMICS_PATH + page;
+  document.getElementById('comicImg').alt = formatDate(page);
+  document.getElementById('stripDate').textContent = formatDate(page);
+  document.getElementById('comicCounter').textContent = `${currentIndex + 1} / ${ALL_PAGES.length}`;
+  document.getElementById('prevBtn').disabled = currentIndex === 0;
+  document.getElementById('nextBtn').disabled = currentIndex === ALL_PAGES.length - 1;
+  document.getElementById('restartNote').classList.toggle('visible', isRestart);
+  document.getElementById('stripBadge').innerHTML = isRestart
+    ? '<span class="strip-badge" style="background:#8b6914;">Revival</span>'
+    : `<span class="strip-badge">#${currentIndex + 1}</span>`;
+
+  // Update sidebar highlights
+  document.querySelectorAll('.sidebar-item[id^="page-btn-"]').forEach(b => b.classList.remove('active'));
+  const active = document.getElementById('page-btn-' + currentIndex);
+  if (active) {
+    active.classList.add('active');
+    active.scrollIntoView({ block: 'nearest' });
+  }
+}
+
+function prevComic() { if (currentIndex > 0) { currentIndex--; render(); } }
+function nextComic() { if (currentIndex < ALL_PAGES.length - 1) { currentIndex++; render(); } }
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') prevComic();
+  if (e.key === 'ArrowRight') nextComic();
+});
+
+buildSidebar();
+render();
+</script>
+</body>
+</html>

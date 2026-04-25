@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rule Zero — Pedro Galicia</title>
+  <meta name="description" content="Rule Zero — a webcomic about tabletop roleplaying games by Pedro Galicia. 195 strips, story arcs, and one-offs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-deep:   #1a3a2a;
+      --green-mid:    #2d6a4f;
+      --green-bright: #52b788;
+      --green-pale:   #b7e4c7;
+      --green-mist:   #e8f5ee;
+      --gold:         #d4a843;
+      --ink:          #1a1a1a;
+      --parchment:    #faf7f0;
+      --white:        #ffffff;
+      --shadow:       rgba(26,58,42,0.15);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--parchment);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(26,58,42,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(82,183,136,0.2);
+    }
+    .nav-logo {
+      font-family: 'Cinzel', serif; font-weight: 900; font-size: 1.05rem;
+      color: var(--green-bright); text-decoration: none; letter-spacing: 0.05em;
+    }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      color: var(--green-pale); text-decoration: none;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* HERO */
+    .comic-hero {
+      padding: 6rem 2rem 3rem;
+      background: var(--green-deep);
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .comic-hero::before {
+      content: ''; position: absolute;
+      width: 500px; height: 500px; border-radius: 50%;
+      border: 1px solid rgba(82,183,136,0.07);
+      top: 50%; left: 50%; transform: translate(-50%,-50%);
+    }
+    .hero-eyebrow {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--green-bright); margin-bottom: 0.75rem;
+    }
+    .hero-title {
+      font-family: 'Cinzel', serif; font-weight: 900;
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      color: var(--white); margin-bottom: 1rem; line-height: 1;
+    }
+    .hero-desc {
+      font-size: 1.15rem; font-weight: 300; font-style: italic;
+      color: var(--green-pale); max-width: 580px; margin: 0 auto 0.75rem;
+      line-height: 1.65;
+    }
+    .hero-meta {
+      font-family: 'Nunito', sans-serif; font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(183,228,199,0.5);
+    }
+
+    /* LAYOUT */
+    .comic-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      min-height: calc(100vh - 200px);
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      background: var(--white);
+      border-right: 1px solid rgba(45,106,79,0.1);
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 60px;
+      height: calc(100vh - 60px);
+      overflow-y: auto;
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-track { background: transparent; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--green-pale); border-radius: 2px; }
+
+    .sidebar-section {
+      margin-bottom: 0.25rem;
+    }
+    .sidebar-heading {
+      font-family: 'Nunito', sans-serif; font-size: 0.65rem; font-weight: 700;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--green-mid); padding: 0.5rem 1.25rem 0.25rem;
+    }
+    .sidebar-item {
+      display: block; width: 100%;
+      font-family: 'Nunito', sans-serif; font-size: 0.82rem; font-weight: 600;
+      color: #444; text-align: left; background: none; border: none;
+      padding: 0.45rem 1.25rem; cursor: pointer;
+      transition: all 0.15s; text-decoration: none;
+      border-left: 3px solid transparent;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .sidebar-item:hover {
+      background: var(--green-mist); color: var(--green-deep);
+      border-left-color: var(--green-bright);
+    }
+    .sidebar-item.active {
+      background: var(--green-mist); color: var(--green-deep);
+      border-left-color: var(--green-bright); font-weight: 700;
+    }
+    .sidebar-divider {
+      height: 1px; background: rgba(45,106,79,0.08); margin: 0.75rem 1.25rem;
+    }
+    .arc-toggle {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-right: 1rem;
+    }
+    .arc-arrow {
+      font-size: 0.6rem; color: var(--green-bright); transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+    .arc-arrow.open { transform: rotate(90deg); }
+    .arc-children {
+      display: none; padding-left: 0.75rem;
+    }
+    .arc-children.open { display: block; }
+    .arc-child {
+      font-size: 0.76rem; font-weight: 400; color: #666;
+      padding: 0.3rem 1.25rem 0.3rem 1rem;
+    }
+    .arc-child.active { color: var(--green-deep); font-weight: 600; }
+
+    /* MAIN VIEWER */
+    .viewer {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .viewer-header {
+      width: 100%; max-width: 800px;
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.75rem;
+    }
+    .back-link {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--green-mid); text-decoration: none; transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--green-bright); }
+
+    .comic-title-bar {
+      text-align: center; flex: 1;
+    }
+    .comic-arc-label {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--green-bright); margin-bottom: 0.2rem;
+    }
+    .comic-strip-title {
+      font-family: 'Cinzel', serif; font-size: 1.1rem; font-weight: 600;
+      color: var(--green-deep);
+    }
+
+    /* Comic image */
+    .comic-frame {
+      width: 100%; max-width: 800px;
+      background: var(--white);
+      border-radius: 6px;
+      box-shadow: 0 4px 24px var(--shadow);
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+    }
+    .comic-img {
+      width: 100%; height: auto; display: block;
+      cursor: pointer;
+    }
+    .comic-img-placeholder {
+      width: 100%; aspect-ratio: 4/3;
+      background: var(--green-mist);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--green-mid);
+      font-family: 'Nunito', sans-serif; font-size: 0.9rem;
+    }
+
+    /* Nav controls */
+    .comic-nav {
+      display: flex; align-items: center; gap: 1rem;
+      width: 100%; max-width: 800px;
+      justify-content: center; margin-bottom: 2rem;
+    }
+    .nav-btn {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      background: var(--green-deep); color: var(--white);
+      border: none; padding: 0.65rem 1.4rem; border-radius: 3px;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .nav-btn:hover { background: var(--green-mid); }
+    .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .nav-btn:disabled:hover { background: var(--green-deep); }
+    .comic-counter {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      color: #888; min-width: 80px; text-align: center;
+    }
+
+    /* Keyboard hint */
+    .key-hint {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem;
+      color: #aaa; text-align: center; margin-bottom: 3rem;
+    }
+    kbd {
+      background: #eee; border: 1px solid #ccc; border-radius: 3px;
+      padding: 0.1rem 0.4rem; font-size: 0.7rem;
+    }
+
+    /* Arc grid view */
+    .arc-grid {
+      display: none;
+      width: 100%; max-width: 900px;
+    }
+    .arc-grid.active { display: block; }
+    .arc-grid-title {
+      font-family: 'Cinzel', serif; font-size: 1.6rem; font-weight: 600;
+      color: var(--green-deep); margin-bottom: 0.5rem;
+    }
+    .arc-grid-desc {
+      font-size: 1rem; color: #666; margin-bottom: 1.5rem; font-style: italic;
+    }
+    .arc-thumbs {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .arc-thumb {
+      background: var(--white); border-radius: 4px;
+      box-shadow: 0 2px 10px var(--shadow);
+      overflow: hidden; cursor: pointer; transition: all 0.2s;
+      border: 2px solid transparent;
+    }
+    .arc-thumb:hover { transform: translateY(-3px); box-shadow: 0 8px 20px var(--shadow); border-color: var(--green-bright); }
+    .arc-thumb img { width: 100%; height: 140px; object-fit: cover; display: block; }
+    .arc-thumb-label {
+      padding: 0.5rem 0.75rem;
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      color: var(--green-deep);
+    }
+
+    /* Standalone index */
+    .standalone-index {
+      display: none;
+      width: 100%; max-width: 900px;
+    }
+    .standalone-index.active { display: block; }
+    .standalone-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 0.75rem;
+    }
+    .standalone-thumb {
+      background: var(--white); border-radius: 4px;
+      box-shadow: 0 2px 8px var(--shadow);
+      overflow: hidden; cursor: pointer; transition: all 0.2s;
+    }
+    .standalone-thumb:hover { transform: translateY(-2px); box-shadow: 0 6px 16px var(--shadow); }
+    .standalone-thumb img { width: 100%; height: 120px; object-fit: cover; display: block; }
+    .standalone-thumb-label {
+      padding: 0.4rem 0.6rem;
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 600;
+      color: #444; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+
+    footer {
+      background: var(--green-deep); padding: 2.5rem 2rem; text-align: center;
+      margin-top: 2rem;
+    }
+    .footer-name {
+      font-family: 'Cinzel', serif; font-size: 1.1rem;
+      color: var(--white); margin-bottom: 0.4rem;
+    }
+    .footer-links {
+      display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin: 0.75rem 0;
+    }
+    .footer-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--green-bright); text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-copy { font-size: 0.8rem; color: rgba(183,228,199,0.35); margin-top: 0.5rem; }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      nav { padding: 0.75rem 1rem; }
+      .nav-links { gap: 0.75rem; }
+      .comic-layout { grid-template-columns: 1fr; }
+      .sidebar {
+        position: static; height: auto; max-height: 220px;
+        border-right: none; border-bottom: 1px solid rgba(45,106,79,0.1);
+      }
+      .viewer { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">Pedro Galicia</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#podcasts">Podcasts</a></li>
+    <li><a href="../index.html#comics">Comics</a></li>
+  </ul>
+</nav>
+
+<div class="comic-hero">
+  <p class="hero-eyebrow">Webcomic · 2012–2014</p>
+  <h1 class="hero-title">Rule Zero</h1>
+  <p class="hero-desc">A comic about tabletop roleplaying games — the players, the GMs, the rules, and the beautiful chaos in between.</p>
+  <p class="hero-meta">195 Comics &nbsp;·&nbsp; 17 Story Arcs &nbsp;·&nbsp; 103 Standalone Strips</p>
+</div>
+
+<div class="comic-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Browse</div>
+      <button class="sidebar-item active" id="btn-arcs" onclick="showArcsIndex()">📚 Story Arcs</button>
+      <button class="sidebar-item" id="btn-standalone" onclick="showStandaloneIndex()">🃏 Standalone Strips</button>
+    </div>
+    <div class="sidebar-divider"></div>
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Story Arcs</div>
+      <div id="arcLinks"></div>
+    </div>
+    <div class="sidebar-divider"></div>
+    <div class="sidebar-section">
+      <div class="sidebar-heading">Other</div>
+      <a href="mobs.html" class="sidebar-item">← MOBS (2002–2003)</a>
+      <a href="../index.html#podcasts" class="sidebar-item">🎙️ Podcasts</a>
+    </div>
+  </aside>
+
+  <!-- VIEWER -->
+  <main class="viewer" id="viewer">
+    <div class="viewer-header">
+      <a href="../index.html#comics" class="back-link">← All Comics</a>
+      <div class="comic-title-bar">
+        <div class="comic-arc-label" id="arcLabel"></div>
+        <div class="comic-strip-title" id="stripTitle">Select a comic to begin</div>
+      </div>
+      <div style="width:80px;"></div>
+    </div>
+
+    <!-- Arc index view -->
+    <div class="arc-grid active" id="arcsIndex">
+      <h2 class="arc-grid-title">Story Arcs</h2>
+      <p class="arc-grid-desc">Multi-part stories from the world of Rule Zero. Click any arc to start reading.</p>
+      <div class="arc-thumbs" id="arcThumbsGrid"></div>
+    </div>
+
+    <!-- Standalone index -->
+    <div class="standalone-index" id="standaloneIndex">
+      <h2 class="arc-grid-title" style="margin-bottom:0.5rem;">Standalone Strips</h2>
+      <p class="arc-grid-desc">103 one-off strips. Click any to read.</p>
+      <div class="standalone-grid" id="standaloneGrid"></div>
+    </div>
+
+    <!-- Single comic reader -->
+    <div id="readerView" style="display:none; width:100%; display:flex; flex-direction:column; align-items:center;">
+      <div class="comic-frame">
+        <img class="comic-img" id="comicImg" src="" alt="" onclick="nextComic()" title="Click to advance">
+      </div>
+      <div class="comic-nav">
+        <button class="nav-btn" id="prevBtn" onclick="prevComic()">← Prev</button>
+        <span class="comic-counter" id="comicCounter"></span>
+        <button class="nav-btn" id="nextBtn" onclick="nextComic()">Next →</button>
+      </div>
+      <p class="key-hint">Use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate · Click image to advance</p>
+    </div>
+
+  </main>
+</div>
+
+<footer>
+  <div class="footer-name">Pedro Galicia</div>
+  <div class="footer-links">
+    <a href="mobs.html">MOBS</a>
+    <a href="../podcast/world-walkers.html">World Walkers</a>
+    <a href="../podcast/world-walkers-cog.html">Cog</a>
+    <a href="../podcast/colossus-vs-the-world.html">Colossus</a>
+    <a href="../index.html">Home</a>
+  </div>
+  <div class="footer-copy">© Pedro Galicia. Maintained with love by his family.</div>
+</footer>
+
+<script>
+const MANIFEST = {"arcs":[{"id":"battle-bard","title":"Battle Bard","pages":["Battle-Bard-1.png","Battle-Bard-2.png","Battle-Bard-3.png"]},{"id":"blinded-by-the-light","title":"Blinded By The Light","pages":["Blinded-By-The-Light-1.png","Blinded-By-The-Light-2.png","Blinded-By-The-Light-3.png","Blinded-By-The-Light-4.png","Blinded-By-The-Light-5.png","Blinded-By-The-Light-6.png","Blinded-By-The-Light-End.png"]},{"id":"coup-de-grace","title":"Coup de Grace","pages":["Coup-de-Grace-Part-1.png","Coup-de-Grace-Part-2.png","Coup-de-Grace-Part-3.png","Coup-de-Grace-Part-4.png","Coup-de-Grace-Part-5.png","Coup-de-Grace-Part-6.png","Coup-de-Grace-Part-7.png","Coup-de-Grace-Part-8.png","Coup-de-Grace-Part-9.png","Coup-de-Grace-Part-10.png","Coup-de-Grace-Part-11.png","Coup-de-Grace-Part-12.png","Coup-de-Grace-Part-13.png","Coup-de-Grace-Part-14.png"]},{"id":"ducks-read-together","title":"Ducks Read Together","pages":["Ducks-Read-Together.png","Ducks-Read-Together2.png","Ducks-Read-Together3.png"]},{"id":"elemental-racism","title":"Elemental Racism","pages":["Elemental-Racism-1.png","Elemental-Racism-2.png","Elemental-Racism-3.png","Elemental-Racism-4.png","Elemental-Racism-5.png","Elemental-Racism-6.png","Elemental-Racism-7.png","Elemental-Racism-8.png"]},{"id":"fumblr","title":"Fumblr","pages":["Fumblr-Part-1-of-2.png","Fumblr-2.png","Fumblr-3.png"]},{"id":"gms-love","title":"GM's Love, Players Kill","pages":["GMs-Love-Players-Kill.png","GMs-Love-Players-Kill-2.png","GMs-Love-Players-Kill-3.png","GMs-Love-Players-Kill-4.png"]},{"id":"hero-of-the-day","title":"Hero of the Day","pages":["Hero-of-the-Day.png","Hero-of-the-Day2.png"]},{"id":"its-christmas","title":"It's Christmas","pages":["Its_Christmas-1.png","Its_Christmas-2.png","Its_Christmas-3.png","Its_Christmas-4.png","Its_Christmas-5.png","Its_Christmas-6.png"]},{"id":"orientation","title":"Orientation","pages":["Orientation-1.png"]},{"id":"secrets","title":"Secrets","pages":["Secrets-1.png","Secrets-2.png","Secrets-3.png","Secrets-4.png","Secrets-5.png","Secrets-6.png"]},{"id":"spiritu-santus","title":"Spiritu Santus","pages":["Spiritu-Santus-1.png","Spiritu-Santus-2.png","Spiritu-Santus-3.png","Spiritu-Santus-4.png","Spiritu-Santus-5.png","Spiritu-Santus-6.png"]},{"id":"the-offer","title":"The Offer","pages":["The-Offer.png","The-Offer2.png"]},{"id":"the-reckoning","title":"The Reckoning","pages":["Reckoning-Part-1.png","Reckoning-Part-2.png","Reckoning-Part-3.png","Reckoning-Part-4.png","Reckoning-Part-5.png","Reckoning-Part-6.png","Reckoning-Part-7.png","Reckoning-Part-8.png","Reckoning-Part-9.png","Reckoning-Part-10.png","Reckoning-Part-11.png","Reckoning-Part-12.png","Reckoning-Part-13.png","Reckoning-Part-14.png","Reckoning-Part-15.png"]},{"id":"the-substitute","title":"The Substitute","pages":["The-Substitute.png","The-Substitute1.png"]},{"id":"thomas","title":"Thomas","pages":["Thomas-Part-1.png","Thomas-Part-2.png","Thomas-Part-3.png","Thomas-End.png"]},{"id":"two-years-later","title":"Two Years Later","pages":["Two_Years_Later-1.png","Two_Years_Later-2.png","Two_Years_Later-3.png","Two_Years_Later-4.png","Two_Years_Later-5.png","Two_Years_Later-6.png"]}],"standalone":["2-Legit-2-Quit.png","2BAMaster.png","A-Hard-Days-Night.png","Alternatives.png","Another-Lonely-Night.png","Anxiety.png","Are-You-Ready-For-The-Fallout.png","Avengers-Disassemble.png","Boy-On-Fire.png","But-Thou-Must.png","Butts.png","CJ_Pratchett.png","Cant-Forgive.png","Catching-Fire.png","Cats-in-the-Cradle.png","Class-Act.png","Clerics-Dont-Heal.png","Close-Encounters.png","Conflict-Resolution.png","Dear-Prudence.png","Easter-Costume.png","Eat-The-Rich.png","Edition-Wars.png","Everyones-Favorite-Dungeon-Obstacle.png","FOD.png","Familiar-Settings.png","Family_Matters.png","Father-of-Mine.png","Firewater.png","first_comic.png","freedom-isnt-free.png","Game-Knows-Game.png","Game-Recognize-Game.png","Game-Shows-Touch-Our-Lives.png","Goodfellas.png","Goodnight-Beth.png","Hardcore-End.png","Head-Games.png","Headstrong.png","Heat-Of-The-Moment.png","Here-Comes-The-Hotstepper.png","Holy_Diver.png","How-I-Could-Just-Kill-A-Man.png","Howard-With-Prep-Time.png","Hurt.png","I-Go-To-Extremes.png","I-Scream.png","I-Write-Sins-Not-Tragedies.png","Im-a-One-GM-Kinda-Guy.png","In-Too-Deep.png","Indestructible.png","Infinity-Chamber.png","Jericho.png","Light-My-Fire.png","Like-Literally.png","Live-Together.png","Long-Way-Down.png","Max-and-Amy.png","Mountain-King.png","Moves-Like-Jagger.png","Nice-Guys-Finish-Last.png","No-Healer-No-Cry.png","No-Littering.png","No-Shoes.png","Not-Your-Kind-of-People.png","November-Rain.png","Oh-Hello-There.png","Oh-Sherry.png","Overkill.png","Party-Rock-Anthem.png","Prep_Time.png","Railroad-Roadhouse.png","Reverse-Surprise.png","Rollin.png","RS.png","Runaway-Train.png","Sleepwalk.png","So-Much-For-the-Afterglow.png","Sudden-Death.png","The-Champ-Is-Here.png","The-Fool-On-The-Hill.png","The-Games-Begin.png","The-Overlook.png","The-Sandwich-Artist.png","The-Shakes.png","The-Warmth.png","This-Ship-Sails-Itself.png","Thomas-End.png","Thunderdome.png","Thunderstruck.png","Tower-Of-Bubble.png","Trauma-Center.png","Trigger-Warning-Both-Sides.png","Twitter-Famous.png","Watching-Waiting.png","Way-of-the-Gun.png","We-Built-This-City.png","We-Can-Work-It-Out.png","We-Value-Your-Feedback.png","Welcome-To-Your-Doom.png","What-Will-Your-Pleasure-Be.png","Winners-Circle.png","your-welcome.png"]};
+
+const COMICS_PATH = '../comics/RuleZero/';
+
+let currentPages = [];
+let currentIndex = 0;
+let currentArcId = null;
+
+function makeTitle(filename) {
+  return filename.replace(/\.png$|\.jpg$/i, '')
+    .replace(/[-_]/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase())
+    .replace(/\d+$/, n => ' ' + n).trim();
+}
+
+// Build sidebar arc links
+function buildSidebar() {
+  const container = document.getElementById('arcLinks');
+  MANIFEST.arcs.forEach(arc => {
+    const btn = document.createElement('button');
+    btn.className = 'sidebar-item arc-toggle';
+    btn.id = 'arc-btn-' + arc.id;
+    btn.innerHTML = `<span>${arc.title}</span><span class="arc-arrow" id="arrow-${arc.id}">▶</span>`;
+    btn.onclick = () => openArc(arc.id);
+    container.appendChild(btn);
+
+    const children = document.createElement('div');
+    children.className = 'arc-children';
+    children.id = 'arc-children-' + arc.id;
+    arc.pages.forEach((page, i) => {
+      const child = document.createElement('button');
+      child.className = 'sidebar-item arc-child';
+      child.id = `arc-child-${arc.id}-${i}`;
+      child.textContent = `${i + 1}. ${makeTitle(page)}`;
+      child.onclick = (e) => { e.stopPropagation(); openArc(arc.id, i); };
+      children.appendChild(child);
+    });
+    container.appendChild(children);
+  });
+}
+
+function showArcsIndex() {
+  document.getElementById('arcsIndex').classList.add('active');
+  document.getElementById('standaloneIndex').classList.remove('active');
+  document.getElementById('readerView').style.display = 'none';
+  document.getElementById('btn-arcs').classList.add('active');
+  document.getElementById('btn-standalone').classList.remove('active');
+  document.getElementById('arcLabel').textContent = '';
+  document.getElementById('stripTitle').textContent = 'Story Arcs';
+}
+
+function showStandaloneIndex() {
+  document.getElementById('arcsIndex').classList.remove('active');
+  document.getElementById('standaloneIndex').classList.add('active');
+  document.getElementById('readerView').style.display = 'none';
+  document.getElementById('btn-arcs').classList.remove('active');
+  document.getElementById('btn-standalone').classList.add('active');
+  document.getElementById('arcLabel').textContent = '';
+  document.getElementById('stripTitle').textContent = 'Standalone Strips';
+}
+
+function openArc(arcId, startIndex = 0) {
+  const arc = MANIFEST.arcs.find(a => a.id === arcId);
+  if (!arc) return;
+
+  currentPages = arc.pages;
+  currentIndex = startIndex;
+  currentArcId = arcId;
+
+  // Update sidebar
+  document.querySelectorAll('.sidebar-item').forEach(b => b.classList.remove('active'));
+  const arcBtn = document.getElementById('arc-btn-' + arcId);
+  if (arcBtn) arcBtn.classList.add('active');
+
+  // Toggle children
+  MANIFEST.arcs.forEach(a => {
+    const ch = document.getElementById('arc-children-' + a.id);
+    const arr = document.getElementById('arrow-' + a.id);
+    if (a.id === arcId) {
+      ch.classList.add('open');
+      if (arr) arr.classList.add('open');
+    } else {
+      ch.classList.remove('open');
+      if (arr) arr.classList.remove('open');
+    }
+  });
+
+  showReader(arc.title);
+}
+
+function openStandalone(index) {
+  currentPages = MANIFEST.standalone;
+  currentIndex = index;
+  currentArcId = null;
+  document.querySelectorAll('.sidebar-item').forEach(b => b.classList.remove('active'));
+  document.getElementById('btn-standalone').classList.add('active');
+  showReader('Standalone');
+}
+
+function showReader(arcTitle) {
+  document.getElementById('arcsIndex').classList.remove('active');
+  document.getElementById('standaloneIndex').classList.remove('active');
+  document.getElementById('readerView').style.display = 'flex';
+  document.getElementById('arcLabel').textContent = arcTitle;
+  renderComic();
+}
+
+function renderComic() {
+  const page = currentPages[currentIndex];
+  const img = document.getElementById('comicImg');
+  img.src = COMICS_PATH + page;
+  img.alt = makeTitle(page);
+  document.getElementById('stripTitle').textContent = makeTitle(page);
+  document.getElementById('comicCounter').textContent = `${currentIndex + 1} / ${currentPages.length}`;
+  document.getElementById('prevBtn').disabled = currentIndex === 0;
+  document.getElementById('nextBtn').disabled = currentIndex === currentPages.length - 1;
+
+  // Highlight sidebar child
+  if (currentArcId) {
+    document.querySelectorAll('.arc-child').forEach(c => c.classList.remove('active'));
+    const child = document.getElementById(`arc-child-${currentArcId}-${currentIndex}`);
+    if (child) child.classList.add('active');
+  }
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function prevComic() {
+  if (currentIndex > 0) { currentIndex--; renderComic(); }
+}
+function nextComic() {
+  if (currentIndex < currentPages.length - 1) { currentIndex++; renderComic(); }
+}
+
+// Build arc thumbnails grid
+function buildArcGrid() {
+  const grid = document.getElementById('arcThumbsGrid');
+  MANIFEST.arcs.forEach(arc => {
+    const thumb = document.createElement('div');
+    thumb.className = 'arc-thumb';
+    thumb.onclick = () => openArc(arc.id);
+    thumb.innerHTML = `
+      <img src="${COMICS_PATH}${arc.pages[0]}" alt="${arc.title}" loading="lazy" onerror="this.style.display='none'">
+      <div class="arc-thumb-label">${arc.title} <span style="color:#aaa;font-weight:400;">(${arc.pages.length})</span></div>
+    `;
+    grid.appendChild(thumb);
+  });
+}
+
+// Build standalone grid
+function buildStandaloneGrid() {
+  const grid = document.getElementById('standaloneGrid');
+  MANIFEST.standalone.forEach((page, i) => {
+    const thumb = document.createElement('div');
+    thumb.className = 'standalone-thumb';
+    thumb.onclick = () => openStandalone(i);
+    thumb.innerHTML = `
+      <img src="${COMICS_PATH}${page}" alt="${makeTitle(page)}" loading="lazy" onerror="this.style.display='none'">
+      <div class="standalone-thumb-label">${makeTitle(page)}</div>
+    `;
+    grid.appendChild(thumb);
+  });
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (document.getElementById('readerView').style.display !== 'none') {
+    if (e.key === 'ArrowLeft') prevComic();
+    if (e.key === 'ArrowRight') nextComic();
+  }
+});
+
+// Hash routing
+function handleHash() {
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    const arc = MANIFEST.arcs.find(a => a.id === hash);
+    if (arc) { openArc(arc.id); return; }
+  }
+  showArcsIndex();
+}
+
+buildSidebar();
+buildArcGrid();
+buildStandaloneGrid();
+handleHash();
+</script>
+</body>
+</html>
