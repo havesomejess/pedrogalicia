@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+<channel>
+	<title>World Walkers: The Other Ones</title>
+	<atom:link href="https://pedrogalicia.com/podcast/feed-otherones.xml" rel="self" type="application/rss+xml" />
+	<link>https://pedrogalicia.com</link>
+	<description>Taking place in the World Walkers Universe, The Other Ones is a hilarious actual play Dungeons and Dragons podcast featuring a group of people that, when Destiny calls, hang up immediately.</description>
+	<lastBuildDate>Sat, 05 Jun 2021 02:08:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:author>Pedro Galicia</itunes:author>
+	<itunes:explicit>true</itunes:explicit>
+	<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Pedro Galicia</itunes:name>
+		<itunes:email>plausiblefarce@gmail.com</itunes:email>
+	</itunes:owner>
+	<copyright>&#xA9; 2019 Pedro Galicia</copyright>
+	<podcast:license>&#xA9; 2019 Pedro Galicia</podcast:license>
+	<podcast:medium>podcast</podcast:medium>
+	<image>
+		<title>World Walkers: The Other Ones</title>
+		<url>https://pedrogalicia.com/assets/ww-otherones-logo.jpg</url>
+		<link>https://pedrogalicia.com</link>
+	</image>
+	<itunes:category text="Leisure">
+		<itunes:category text="Games" />
+	</itunes:category>
+	<itunes:category text="Comedy" />
+	<itunes:category text="Leisure">
+		<itunes:category text="Video Games" />
+	</itunes:category>
+	<rawvoice:rating>TV-14</rawvoice:rating>
+	<rawvoice:donate href="https://www.patreon.com/worldwalkers">Patreon</rawvoice:donate>
+	<podcast:funding url="https://www.patreon.com/worldwalkers">Patreon</podcast:funding>
+	<podcast:guid>b5296f1b-949b-5e9f-a880-64fe42b376e0</podcast:guid>
+	<item>
+		<title>Is This Loss? &#8211; The End</title>
+		<link>https://pedrogalicia.com/podcast/2020/01/23/is-this-loss-the-end/</link>
+		<pubDate>Thu, 23 Jan 2020 18:32:07 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1503</guid>
+		<description><![CDATA[<p>The final episode of The Other Ones.</p>
+<p><u><strong>MUSIC:</strong></u></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a> &#8220;Shangai Chase &#8211; Epic Cinematic Drums&#8221; by Alexander Nakarada (<a href="https://www.orchestralis.net/)" target="_blank" rel="nofollow noopener noreferrer"><u>filmmusic.io)</u></a> License: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Marty Gots A Plan&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Heart of Nowhere&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Trio For Piano Violin and Viola&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a><br />
+&#8220;Final Destination&#8221; by Sascha Ende (<a href="https://www.sascha-ende.de%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.sascha-ende.de)</u></a><br />
+License: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Steel Rods&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music &#8211; &#8220;Border Blaster&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a><br />
+Music &#8211; &#8220;Infinite Horizon&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a></p>
+<p>Music: Climb by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.silvermansound.com</u></a><br />
+Music: Passage Of Arms by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.silvermansound.com</u></a></p>
+<p>Sound Effects and Additional Music: <a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode007.mp3" length="70589375" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>7</itunes:episode>
+		<podcast:episode>7</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:13:32</itunes:duration>
+	</item>
+	<item>
+		<title>Home Is Where The Mom Is – S1:E6</title>
+		<link>https://pedrogalicia.com/podcast/2019/12/31/home-is-where-the-mom-is-s1e6/</link>
+		<pubDate>Tue, 31 Dec 2019 20:48:51 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1496</guid>
+		<description><![CDATA[<p>With the loss of a beloved NPC, the group comes to terms with what exactly Chase brings to the group&#8230;</p>
+<p><u><strong>MUSIC:</strong></u></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a><br />
+&#8220;Nostalgic Piano &#8211; &#8220;Pseudo&#8221; by Alexander Nakarada (<a href="https://www.orchestralis.net/)" target="_blank" rel="nofollow noopener noreferrer"><u>filmmusic.io)</u></a><br />
+License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Marty Gots A Plan&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Echoes of Time v2&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Investigations&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a><br />
+&#8220;Final Destination&#8221; by Sascha Ende (<a href="https://www.sascha-ende.de%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.sascha-ende.de)</u></a><br />
+License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Steel Rods&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music &#8211; &#8220;Border Blaster&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a></p>
+<p>Sound Effects and Additional Music: <a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode006.mp3" length="70256192" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>6</itunes:episode>
+		<podcast:episode>6</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:13:11</itunes:duration>
+	</item>
+	<item>
+		<title>He Does SEEM To Be An Idiot, Though – S1:E5</title>
+		<link>https://pedrogalicia.com/podcast/2019/12/31/he-does-seem-to-be-an-idiot-though-s1e5/</link>
+		<pubDate>Tue, 31 Dec 2019 20:46:59 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1495</guid>
+		<description><![CDATA[<p>The Other Ones continue surviving in the city of Unity, desperately trying to find a way to be viable in during this fire sale of an environment&#8230;</p>
+<p><strong>MUSIC:</strong></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a><br />
+&#8220;Nostalgic Piano &#8211; &#8220;Pseudo&#8221; by Alexander Nakarada (<a href="https://www.orchestralis.net/)" target="_blank" rel="nofollow noopener noreferrer"><u>filmmusic.io)</u></a><br />
+License: CC BY (<u><a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></u></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Marty Gots A Plan&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Echoes of Time v2&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Investigations&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io</a><br />
+&#8220;Final Destination&#8221; by Sascha Ende (<a href="https://www.sascha-ende.de%29/" target="_blank" rel="nofollow noopener noreferrer">https://www.sascha-ende.de)</a><br />
+License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Steel Rods&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music &#8211; &#8220;Border Blaster&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a></p>
+<p>Sound Effects and Additional Music: <a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode005.mp3" length="34816613" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>5</itunes:episode>
+		<podcast:episode>5</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>36:16</itunes:duration>
+	</item>
+	<item>
+		<title>RIP In Peace – S1:E4</title>
+		<link>https://pedrogalicia.com/podcast/2019/12/09/rip-in-peace-s1e4/</link>
+		<pubDate>Mon, 09 Dec 2019 23:59:55 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1489</guid>
+		<description><![CDATA[<p>The Other Ones make friends, have a heart to heart, and watch as the world burns&#8230;</p>
+<p><u><strong>MUSIC:</strong></u></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Darkling&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Awaiting Return&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Marty Gots A Plan&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Ever Mindful&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Investigations&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Mourning Song&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Rites&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Steel Rods&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Unlight&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Wholesome&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a> &#8220;Jokull&#8221; by Alexander Nakarada (<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Sound Effects and Additional Music: <a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode004.mp3" length="74327780" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>4</itunes:episode>
+		<podcast:episode>4</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:17:25</itunes:duration>
+	</item>
+	<item>
+		<title>The Sparkles Intensify – S1:E3</title>
+		<link>https://pedrogalicia.com/podcast/2019/11/07/the-sparkles-intensify-s1e3/</link>
+		<pubDate>Thu, 07 Nov 2019 15:32:54 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1483</guid>
+		<description><![CDATA[<p>Megan McKay, who you may know from such esteemed endeavors as <a href="http://doodleforfood.com/" target="_blank" rel="noopener noreferrer">DoodleForFood.com</a>, Dogs With Jobs, and even&#8230; <strong>WORLD WALKERS</strong>, joins the cast with her brand new character. Find out what happens when another joins the fray (even though Wes is absent this episode) as Unity burns and Steve Steve faces his own troubles in the latest episode of The Other Ones!</p>
+<p><u><strong>MUSIC:</strong></u></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Darkling&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Heartbreaking&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Marty Gots A Plan&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Take A Chance&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Unlight&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a> &#8220;Final Destination&#8221; by Sascha Ende (<a href="https://www.sascha-ende.de%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.sascha-ende.de)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music &#8211; &#8220;Don&#8217;t Close Your Eyes&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a> Music: Mysterious String Quintet by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.silvermansound.com</u></a></p>
+<p>Sound Effects and Additional Music: <a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode003.mp3" length="70972598" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>3</itunes:episode>
+		<podcast:episode>3</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:13:56</itunes:duration>
+	</item>
+	<item>
+		<title>Knock Off Berries – S1:E2</title>
+		<link>https://pedrogalicia.com/podcast/2019/11/01/knock-off-berries-s1e2/</link>
+		<pubDate>Fri, 01 Nov 2019 15:35:10 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1466</guid>
+		<description><![CDATA[<p>Legendary relics of untold power are scattered across the world of Menroth. Those who discover them have the opportunity to discover more about these items of power and their true origins. In the process, they will continue to shape not only their own destinies, but in time, the fate of their world.</p>
+<p>This is not that story. This is the story… of The Other Ones&#8230;</p>
+<p>In our first episode, Gweniviffe, a Marketing Consultant, found a new opportunity when an acolyte named Steve Steve was selling a pyramid scheme to tavern goes in the city of Unity. Together with an elf named Beeg Farma, the three of them planned to set out and bring their traveling apothecary, which they call the Mobile App, to the people of the world.</p>
+<p>While speaking to an eager young citizen of the city named Chase, they watched as trouble came in the form of an attack on the city. Now, the four of them must figure out what to do in a city with no adventurers, no Heroes, and seemingly no hope.</p>
+<p><u><strong>MUSIC:</strong></u></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Darkling&#8221; by Kevin MacLeod<br />
+(<u><a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a></u> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from<a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"> <u>https://filmmusic.io</u></a> &#8220;Grave Blow&#8221; by Kevin MacLeod (<u><a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a></u> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music &#8211; &#8220;My Favorite Regret&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a><br />
+Music: Mysterious String Quintet by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.silvermansound.com</u></a></p>
+<p>Sound Effects and Additional Music:<br />
+<a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode002.mp3" length="40206338" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>2</itunes:episode>
+		<podcast:episode>2</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>41:53</itunes:duration>
+	</item>
+	<item>
+		<title>Pyramids And PR – S1:E1</title>
+		<link>https://pedrogalicia.com/podcast/2019/11/01/pyramids-and-pr-s1e1/</link>
+		<pubDate>Fri, 01 Nov 2019 15:34:58 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1465</guid>
+		<description><![CDATA[<p>Here’s what’s going on.</p>
+<p>After the original cast of World Walkers wrapped up Season 3 of World Walkers, we kept playing together. Originally we kept going with the original characters, which you can hear in The Lost Episodes. But after a bit, the group decided they wanted to play new characters. I pitched them a few ideas, they chose one, and we’ve been playing that campaign ever since.</p>
+<p>The game they were interested in is one tied to our a Patreon game I run called World Walkers: Heroes. In that story, adventurers find relics of untold power, and have the opportunity to become the next legends of The World Of Menroth. While their story takes place on one side of the world, this new series follows our original group as they choose a very different path than the Heroes…</p>
+<p>It’s been really hard keeping this a secret for so long. Thank you to everyone for making this possible.</p>
+<p>I hope you enjoy World Walkers: The Other Ones &#8211; Episode 1: Pyramids and PR.</p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode001.mp3" length="52670468" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:image href="https://pedrogalicia.com/assets/ww-otherones-logo.jpg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>1</itunes:episode>
+		<podcast:episode>1</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>54:52</itunes:duration>
+	</item>
+</channel>
+</rss>

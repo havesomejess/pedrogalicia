@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+<channel>
+	<title>Colossus Vs The World</title>
+	<atom:link href="https://pedrogalicia.com/podcast/feed-colossus.xml" rel="self" type="application/rss+xml" />
+	<link>https://pedrogalicia.com</link>
+	<description>Colossus Vs The World is a podcast where my brother Frank takes on the role of Colossus while simultaneously knowing nothing about neither Pietro or the Marvel Universe at large. </description>
+	<lastBuildDate>Sat, 05 Jun 2021 02:08:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:author>Frank and Pedro Galicia</itunes:author>
+	<itunes:explicit>true</itunes:explicit>
+	<itunes:image href="https://pedrogalicia.com/assets/ww-colossus-logo.jpg" />
+	<itunes:type>serial</itunes:type>
+	<itunes:owner>
+		<itunes:name>Frank and Pedro Galicia</itunes:name>
+		<itunes:email>plausiblefarce@gmail.com</itunes:email>
+	</itunes:owner>
+	<copyright>&#xA9; 2019 Pedro Galicia</copyright>
+	<podcast:license>&#xA9; 2019 Pedro Galicia</podcast:license>
+	<podcast:medium>podcast</podcast:medium>
+	<image>
+		<title>Colossus Vs The World</title>
+		<url>https://pedrogalicia.com/assets/ww-colossus-logo.jpg</url>
+		<link>https://pedrogalicia.com</link>
+	</image>
+	<itunes:category text="Comedy">
+		<itunes:category text="Improv" />
+	</itunes:category>
+	<itunes:category text="Leisure">
+		<itunes:category text="Games" />
+	</itunes:category>
+	<itunes:category text="Leisure">
+		<itunes:category text="Video Games" />
+	</itunes:category>
+	<rawvoice:rating>TV-14</rawvoice:rating>
+	<rawvoice:donate href="https://www.patreon.com/worldwalkers">Patreon</rawvoice:donate>
+	<podcast:funding url="https://www.patreon.com/worldwalkers">Patreon</podcast:funding>
+	<podcast:guid>1a1f4377-d13d-5b36-b076-4c11a072b35e</podcast:guid>
+	<item>
+		<title>Episode One: Enter The Nipple Mouth</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/29/episode-one-enter-the-nipple-mouth/</link>
+		<pubDate>Wed, 29 Jul 2020 12:21:43 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1641</guid>
+		<description><![CDATA[<p>Join us as Frank takes on the role of Colossus while simultaneously knowing nothing about neither Pietro or the Marvel Universe at large.</p>
+<p>Sound Effects by Syrinscape<br />
+https://syrinscape.com/</p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode001.mp3" length="47393866" type="audio/mpeg" />
+		<itunes:author>Frank and Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>1</itunes:episode>
+		<podcast:episode>1</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>32:55</itunes:duration>
+	</item>
+	<item>
+		<title>Episode Six: The Bear From The Shining</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/26/episode-six-the-bear-from-the-shining/</link>
+		<pubDate>Sun, 26 Jul 2020 22:47:39 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1633</guid>
+		<description><![CDATA[<p>What do The White Queen and Storm have in store for Colossus? How far can he take his mission?</p>
+<p>&#8230;</p>
+<p>What is his mission?</p>
+<p>Find out in this, the final episode of Colossus Vs The World!</p>
+<p>I want to thank everyone for being patient. I know there was a pretty big gap between the last episode and this one, so I wanna tell you how appreciative I am that you all hung around. I think this episode was worth the wait 😉</p>
+<p><u><em>Music and Sound:</em></u></p>
+<p>&#8220;Hitman&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>&#8220;Stormfront&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>) Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>&#8220;Movement Proposition&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>) Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://store.syrinscape.com/what-is-syrinscape/?att" target="_blank" rel="nofollow noopener noreferrer">https://store.syrinscape.com/what-is-syrinscape/?att</a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-EpisodeFinal.mp3" length="49350742" type="audio/mpeg" />
+		<itunes:author>Frank and Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>6</itunes:episode>
+		<podcast:episode>6</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>34:16</itunes:duration>
+	</item>
+	<item>
+		<title>Episode Five: He&#8217;s Gonna Have To Drink Me</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/26/episode-five-hes-gonna-have-to-drink-me/</link>
+		<pubDate>Sun, 26 Jul 2020 22:46:19 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1632</guid>
+		<description><![CDATA[<p>Ever since Colossus ripped out of the carcasses and the walls of the Xavier Institute, he&#8217;s had a plan. Gain an audience with the man known as The Kingpin, Wilson Fisk.</p>
+<p>But why? What does Fisk have that Colossus so desperately needs? What could Kingpin have that would be worth Colossus risking so much?</p>
+<p>What does it all mean?</p>
+<p>Prepare to find out in the latest episode of Colossus Vs The World. And then please. PLEASE come discuss it over in our Discord: <a href="https://discord.gg/nABrEpf" target="_blank" rel="nofollow noopener noreferrer">https://discord.gg/nABrEpf</a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode005.mp3" length="31239936" type="audio/mpeg" />
+		<itunes:author>Frank and Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>5</itunes:episode>
+		<podcast:episode>5</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>21:42</itunes:duration>
+	</item>
+	<item>
+		<title>Episode Four: The Kitchen</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/26/episode-four-the-kitchen/</link>
+		<pubDate>Sun, 26 Jul 2020 22:44:34 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1631</guid>
+		<description><![CDATA[<p>Colossus has his sights set on one person. Who is that person? What the hell could he possibly have planned after murdering his own team?</p>
+<p>Does he, in fact, have a plan?</p>
+<p>I&#8217;m not sure any of these questions are answered in this episode, but what I do know is that Colossus is ready to get what he wants, regardless if anyone actually has it or not.</p>
+<p><em>Music and Sound</em></p>
+<p>&#8220;Metalmania&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>Sound Effects by Syrinscape<br />
+https://syrinscape.com/</p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode004.mp3" length="27676744" type="audio/mpeg" />
+		<itunes:author>Frank and Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>4</itunes:episode>
+		<podcast:episode>4</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>19:13</itunes:duration>
+	</item>
+	<item>
+		<title>Episode Three: I&#8217;m The Changer</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/26/episode-three-im-the-changer/</link>
+		<pubDate>Sun, 26 Jul 2020 22:40:22 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1630</guid>
+		<description><![CDATA[<p>After having a Frank conversation with Nightcrawler and Iceman, Colossus now turns his attention towards an exit strategy&#8230;</p>
+<p>Note: Special thanks to Wesley for this amazing art!</p>
+<p>Music and Sounds:</p>
+<p>&#8220;Steel and Seething&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>&#8220;Mesmerize&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>Sound Effects by Syrinscape</p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode003.mp3" length="37112442" type="audio/mpeg" />
+		<itunes:author>Frank and Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>3</itunes:episode>
+		<podcast:episode>3</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>25:46</itunes:duration>
+	</item>
+	<item>
+		<title>Episode Two: A Song Of Furry And Ice</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/26/episode-two-a-song-of-furry-and-ice/</link>
+		<pubDate>Sun, 26 Jul 2020 22:37:27 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1629</guid>
+		<description><![CDATA[<p>Colossus has made a decision that will weigh on his conscious for the r-</p>
+<p>Let&#8217;s stop right there. Frank has no conscious.</p>
+<p>Need proof? Listen to Episode Two.</p>
+<p>Music and Sounds:</p>
+<p>&#8220;Bamf.wav&#8221; by themfish<br />
+<a href="https://freesound.org/people/themfish/" target="_blank" rel="nofollow noopener noreferrer">https://freesound.org/people/themfish/</a><br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>https://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>&#8220;Hero Down&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>Sound Effects by Syrinscape<br />
+https://syrinscape.com/</p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode002.mp3" length="32493814" type="audio/mpeg" />
+		<itunes:author>Frank and Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>2</itunes:episode>
+		<podcast:episode>2</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>22:34</itunes:duration>
+	</item>
+</channel>
+</rss>

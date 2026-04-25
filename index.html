@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Galicia — Storyteller, World Builder, DM</title>
+  <meta name="description" content="The creative home of Pedro Galicia — World Walkers podcast, Rule Zero webcomic, MOBS, and a universe of stories built with radical compassion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-deep:    #1a3a2a;
+      --green-mid:     #2d6a4f;
+      --green-bright:  #52b788;
+      --green-pale:    #b7e4c7;
+      --green-mist:    #e8f5ee;
+      --gold:          #d4a843;
+      --gold-pale:     #f5e6c0;
+      --ink:           #1a1a1a;
+      --parchment:     #faf7f0;
+      --white:         #ffffff;
+      --shadow:        rgba(26,58,42,0.18);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--parchment);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.4;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(26,58,42,0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(82,183,136,0.2);
+    }
+
+    .nav-logo {
+      font-family: 'Cinzel', serif;
+      font-weight: 900;
+      font-size: 1.1rem;
+      color: var(--green-bright);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--green-pale);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-left {
+      background: var(--green-deep);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8rem 4rem 4rem 4rem;
+      position: relative;
+    }
+
+    /* Decorative circle motif — echoes the podcast logos */
+    .hero-left::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-20%, -50%);
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      border: 2px solid rgba(82,183,136,0.12);
+      pointer-events: none;
+    }
+    .hero-left::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-10%, -52%);
+      width: 480px;
+      height: 480px;
+      border-radius: 50%;
+      border: 1px solid rgba(82,183,136,0.07);
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+      margin-bottom: 1rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.2s;
+    }
+
+    .hero-name {
+      font-family: 'Cinzel', serif;
+      font-weight: 900;
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      line-height: 1;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.4s;
+    }
+
+    .hero-name span {
+      display: block;
+      color: var(--green-bright);
+    }
+
+    .hero-tagline {
+      font-size: 1.35rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--green-pale);
+      line-height: 1.6;
+      max-width: 420px;
+      margin-bottom: 2.5rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.6s;
+    }
+
+    .hero-dates {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      color: rgba(183,228,199,0.5);
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.7s;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards 0.9s;
+    }
+
+    .btn {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.8rem 1.8rem;
+      border-radius: 3px;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: var(--green-bright);
+      color: var(--green-deep);
+    }
+    .btn-primary:hover {
+      background: var(--gold);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(212,168,67,0.3);
+    }
+
+    .btn-outline {
+      border: 1px solid rgba(82,183,136,0.4);
+      color: var(--green-pale);
+    }
+    .btn-outline:hover {
+      border-color: var(--green-bright);
+      color: var(--green-bright);
+      transform: translateY(-2px);
+    }
+
+    .hero-right {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+      opacity: 0;
+      animation: fadeIn 1.2s ease forwards 0.5s;
+    }
+
+    /* Green tint overlay on photo */
+    .hero-right::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        var(--green-deep) 0%,
+        rgba(26,58,42,0.3) 40%,
+        rgba(26,58,42,0.1) 100%
+      );
+    }
+
+    /* ── QUOTE BAND ── */
+    .quote-band {
+      background: var(--green-mid);
+      padding: 3rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .quote-band::before {
+      content: '"';
+      position: absolute;
+      font-family: 'Cinzel', serif;
+      font-size: 20rem;
+      color: rgba(255,255,255,0.04);
+      top: -4rem;
+      left: 2rem;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .quote-text {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+      font-weight: 400;
+      color: var(--white);
+      max-width: 800px;
+      margin: 0 auto 1rem;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .quote-attribution {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+    }
+
+    /* ── SECTION COMMONS ── */
+    section {
+      padding: 6rem 2rem;
+    }
+
+    .section-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--green-mid);
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 600;
+      color: var(--green-deep);
+      margin-bottom: 1rem;
+      line-height: 1.15;
+    }
+
+    .section-intro {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #444;
+      max-width: 640px;
+      line-height: 1.7;
+      margin-bottom: 3rem;
+    }
+
+    /* ── ABOUT ── */
+    .about {
+      background: var(--white);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
+
+    .about-photo-wrap {
+      position: relative;
+    }
+
+    .about-photo {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+      box-shadow: 8px 8px 0 var(--green-pale);
+    }
+
+    .about-fanart {
+      position: absolute;
+      bottom: -2rem;
+      right: -2rem;
+      width: 45%;
+      border-radius: 4px;
+      box-shadow: 4px 4px 0 var(--gold-pale);
+      border: 3px solid var(--white);
+    }
+
+    .about-text h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--green-deep);
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    .about-text h3:first-child { margin-top: 0; }
+
+    .about-text p {
+      font-size: 1.1rem;
+      line-height: 1.75;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .about-text p strong {
+      color: var(--green-mid);
+      font-weight: 600;
+    }
+
+    .radical {
+      background: var(--green-mist);
+      border-left: 4px solid var(--green-bright);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0 4px 4px 0;
+      margin-top: 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--green-deep);
+      line-height: 1.65;
+    }
+
+    /* ── PODCASTS ── */
+    .podcasts {
+      background: var(--green-deep);
+    }
+
+    .podcasts .section-label { color: var(--green-bright); }
+    .podcasts .section-title { color: var(--white); }
+    .podcasts .section-intro { color: var(--green-pale); }
+
+    .podcast-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .podcast-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(82,183,136,0.2);
+      border-radius: 6px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: all 0.25s;
+      text-decoration: none;
+    }
+
+    .podcast-card:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: var(--green-bright);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+    }
+
+    .podcast-logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .podcast-card h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.3;
+    }
+
+    .podcast-card p {
+      font-size: 0.95rem;
+      color: var(--green-pale);
+      line-height: 1.55;
+      flex: 1;
+    }
+
+    .podcast-meta {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+    }
+
+    /* ── COMICS ── */
+    .comics {
+      background: var(--parchment);
+    }
+
+    .comics-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+
+    .comic-card {
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px var(--shadow);
+      text-decoration: none;
+      display: block;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+
+    .comic-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 40px var(--shadow);
+    }
+
+    .comic-preview {
+      height: 280px;
+      background: var(--green-mid);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .comic-preview-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.7;
+    }
+
+    .comic-preview-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to top, rgba(26,58,42,0.9), rgba(26,58,42,0.2));
+    }
+
+    .comic-preview-label h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--white);
+      text-align: center;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    }
+
+    .comic-info {
+      background: var(--white);
+      padding: 1.5rem;
+    }
+
+    .comic-info p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.65;
+      margin-bottom: 1rem;
+    }
+
+    .comic-info .btn {
+      font-size: 0.8rem;
+      padding: 0.6rem 1.4rem;
+      background: var(--green-deep);
+      color: var(--white);
+    }
+    .comic-info .btn:hover {
+      background: var(--green-mid);
+      transform: none;
+    }
+
+
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--green-deep);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .footer-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-dates {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-text {
+      font-size: 1rem;
+      color: var(--green-pale);
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    .footer-links a {
+      font-family: 'Nunito', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--gold); }
+
+    .footer-copy {
+      font-size: 0.8rem;
+      color: rgba(183,228,199,0.4);
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 1.25rem; }
+      .nav-links { gap: 1rem; }
+      .nav-links a { font-size: 0.75rem; }
+
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-left { padding: 7rem 1.5rem 3rem; }
+      .hero-right { height: 50vw; }
+      .hero-left::before, .hero-left::after { display: none; }
+
+      .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .about-fanart { display: none; }
+
+      .podcast-grid { grid-template-columns: 1fr 1fr; }
+
+      .comics-grid { grid-template-columns: 1fr; }
+
+      section { padding: 4rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="nav-logo">Pedro Galicia</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#podcasts">Podcasts</a></li>
+      <li><a href="#comics">Comics</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" style="padding:0;">
+    <div class="hero-left">
+      <p class="hero-eyebrow">January 16, 1981 – July 30, 2021</p>
+      <h1 class="hero-name">
+        Pedro<br>
+        <span>Galicia</span>
+      </h1>
+      <p class="hero-tagline">Storyteller. World Builder. DM of 20 years. Creator of universes built with radical compassion.</p>
+      <p class="hero-dates">South Bend, Indiana &nbsp;·&nbsp; Friend to the World</p>
+      <div class="hero-cta">
+        <a href="#podcasts" class="btn btn-primary">Listen to the Podcasts</a>
+        <a href="#about" class="btn btn-outline">His Story</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="assets/pedro-portrait.jpg" alt="Pedro Galicia" class="hero-photo">
+    </div>
+  </section>
+
+  <!-- QUOTE BAND -->
+  <div class="quote-band">
+    <p class="quote-text">"Tell a story, joke, or sing with others. Remember him by spreading radical compassion to your neighbor and the world."</p>
+    <p class="quote-attribution">— Pedro's obituary, July 2021</p>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="about-photo-wrap">
+          <img src="assets/pedro-portrait.jpg" alt="Pedro Galicia with his RPG collection" class="about-photo">
+          <img src="assets/pedro-fanart-dm.jpg" alt="Fan art of Pedro as a DM" class="about-fanart">
+        </div>
+        <div class="about-text">
+          <p class="section-label">Who He Was</p>
+          <h2 class="section-title" style="font-size:2rem;">A Friend<br>to the World</h2>
+
+          <p>Pedro Galicia was born on January 16, 1981 in South Bend, Indiana, and spent his life doing the one thing he believed in most: <strong>building community around the things he loved.</strong></p>
+
+          <p>After graduating from Washington High School in 1999, Pedro went to work at the St. Joseph County Public Library, where he founded <strong>Save-Point</strong> — a teenage outreach program where kids could spend their after-school hours playing video games and board games, and competing in tournaments. He was proud of every kid who found community and comfort there. Even after he left the library, Pedro never stopped creating communities around him.</p>
+
+          <p>A lifelong Dungeons & Dragons enthusiast, Pedro spent over 20 years organizing, writing, and leading campaigns with his friends. In 2016 he launched <strong>World Walkers</strong>, his most ambitious creation — a multiverse of interconnected homebrew worlds he'd been building for decades, now shared with the world as a podcast. Over the next five years he produced over 300 episodes across four shows, building a warm global community of listeners along the way.</p>
+
+          <p>Pedro also expressed his love of gaming through his webcomics <strong>Rule Zero</strong> and <strong>MOBS</strong>, and through his beloved brother <strong>Frankie</strong>, with whom he made <em>Colossus Vs The World</em> — a joyful, chaotic podcast that is its own kind of treasure.</p>
+
+          <p>He lived for his two most important people: his spouse <strong>Jess</strong>, and his child <strong>Willow</strong>.</p>
+
+          <p>After a long battle with cancer, Pedro passed away on July 30, 2021, at age 40, at home, surrounded by family and friends.</p>
+
+          <div class="radical">
+            "Pedro believed that the point of life was to have fun with the people that you love. In lieu of flowers, tell a story, joke, or sing with others. Remember him by spreading radical compassion to your neighbor and the world."
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PODCASTS -->
+  <section class="podcasts" id="podcasts">
+    <div class="section-inner">
+      <p class="section-label">World Walkers Universe</p>
+      <h2 class="section-title">The Podcasts</h2>
+      <p class="section-intro">245 episodes across four shows. All free. All preserved. Pedro edited and produced every one of them — many while battling cancer. You can still subscribe in any podcast app.</p>
+
+      <div class="podcast-grid">
+
+        <a href="podcast/world-walkers.html" class="podcast-card">
+          <img src="assets/ww-show-logo.jpg" alt="World Walkers" class="podcast-logo">
+          <h3>World Walkers</h3>
+          <p>A funny 5th Edition D&D actual play podcast set in Pedro's custom multiverse of homebrew worlds. The flagship — 194 episodes across 5 seasons.</p>
+          <span class="podcast-meta">194 Episodes · 2016–2021</span>
+        </a>
+
+        <a href="podcast/world-walkers-cog.html" class="podcast-card">
+          <img src="assets/ww-cog-logo.png" alt="World Walkers: Cog" class="podcast-logo">
+          <h3>World Walkers: Cog</h3>
+          <p>Airships, gunslingers, ex-slave wargolems, and a shattered kingdom of magic. A spinoff set in the Steam-Powered World of Cog.</p>
+          <span class="podcast-meta">38 Episodes · 2018–2021</span>
+        </a>
+
+        <a href="podcast/the-other-ones.html" class="podcast-card">
+          <img src="assets/ww-otherones-logo.jpg" alt="World Walkers: The Other Ones" class="podcast-logo">
+          <h3>The Other Ones</h3>
+          <p>When Destiny calls, these people hang up immediately. The original World Walkers cast, new characters, same beloved chaos.</p>
+          <span class="podcast-meta">7 Episodes · 2019–2020</span>
+        </a>
+
+        <a href="podcast/colossus-vs-the-world.html" class="podcast-card">
+          <img src="assets/ww-colossus-logo.jpg" alt="Colossus Vs The World" class="podcast-logo">
+          <h3>Colossus Vs The World</h3>
+          <p>Pedro's brother Frank takes on the role of Colossus while knowing absolutely nothing about the Marvel Universe. A pure joy from start to finish.</p>
+          <span class="podcast-meta">6 Episodes · 2020</span>
+        </a>
+
+      </div>
+
+      <div style="margin-top:2.5rem; padding:1.5rem; background:rgba(255,255,255,0.06); border-radius:6px; border:1px solid rgba(82,183,136,0.2);">
+        <p style="color:var(--green-pale); font-size:1rem; line-height:1.65;">
+          <strong style="color:var(--green-bright);">Patreon members get even more.</strong> Pedro's Patreon has been running for nearly 10 years and includes 700+ exclusive posts — bonus episodes, The Travelers, Brummelstone's Day Off, and more. The paywall has been removed, so everything is free to access.
+          <a href="https://www.patreon.com/worldwalkers" style="color:var(--gold); margin-left:0.5rem;" target="_blank" rel="noopener">Explore the archive →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMICS -->
+  <section class="comics" id="comics">
+    <div class="section-inner">
+      <p class="section-label">Sequential Art</p>
+      <h2 class="section-title">The Comics</h2>
+      <p class="section-intro">From his very first webcomic at age 21, to a decade of sharp D&D humor — Pedro's comics are funny, warm, and distinctly his.</p>
+
+      <div class="comics-grid">
+
+        <a href="comics/rule-zero.html" class="comic-card">
+          <div class="comic-preview">
+            <div class="comic-preview-label">
+              <h3>Rule Zero</h3>
+            </div>
+          </div>
+          <div class="comic-info">
+            <p>A webcomic about tabletop roleplaying games — the players, the GMs, the rules, and the beautiful chaos that happens when they collide. 195 strips, story arcs, and one-offs, published from roughly 2012–2014.</p>
+            <span class="btn">Read the Comic →</span>
+          </div>
+        </a>
+
+        <a href="comics/mobs.html" class="comic-card">
+          <div class="comic-preview" style="background:var(--ink);">
+            <div class="comic-preview-label">
+              <h3>MOBS</h3>
+            </div>
+          </div>
+          <div class="comic-info">
+            <p>Pedro's first webcomic, made when he was 21 years old. 154 strips published from February 2002 to February 2003 — and two more made nearly two decades later when he thought about bringing it back.</p>
+            <span class="btn">Read the Comic →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-name">Pedro Galicia</p>
+      <p class="footer-dates">January 16, 1981 – July 30, 2021</p>
+      <p class="footer-text">"The point of life was to have fun with the people that you love."</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="podcast/world-walkers.html">World Walkers</a>
+        <a href="podcast/world-walkers-cog.html">Cog</a>
+        <a href="podcast/the-other-ones.html">The Other Ones</a>
+        <a href="podcast/colossus-vs-the-world.html">Colossus</a>
+        <a href="comics/rule-zero.html">Rule Zero</a>
+        <a href="comics/mobs.html">MOBS</a>
+        <a href="https://www.patreon.com/worldwalkers" target="_blank" rel="noopener">Patreon</a>
+      </div>
+      <p class="footer-copy">© Pedro Galicia. This site is maintained with love by his family.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

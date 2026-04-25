@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+<channel>
+	<title>World Walkers: Cog</title>
+	<atom:link href="https://pedrogalicia.com/podcast/feed-cog.xml" rel="self" type="application/rss+xml" />
+	<link>https://pedrogalicia.com</link>
+	<description>World Walkers: Cog is weekly podcast that follows the exploits of a mismatched group of adventurers on the Steam-Powered world of Cog. </description>
+	<lastBuildDate>Sat, 05 Jun 2021 02:08:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:author>Pedro Galicia</itunes:author>
+	<itunes:explicit>true</itunes:explicit>
+	<itunes:image href="https://pedrogalicia.com/assets/ww-cog-logo.png" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Pedro Galicia</itunes:name>
+		<itunes:email>plausiblefarce@gmail.com</itunes:email>
+	</itunes:owner>
+	<copyright>&#xA9; 2019, Pedro Galicia</copyright>
+	<podcast:license>&#xA9; 2019, Pedro Galicia</podcast:license>
+	<podcast:medium>podcast</podcast:medium>
+	<image>
+		<title>World Walkers: Cog</title>
+		<url>https://pedrogalicia.com/assets/ww-cog-logo.png</url>
+		<link>https://pedrogalicia.com</link>
+	</image>
+	<itunes:category text="Leisure">
+		<itunes:category text="Games" />
+	</itunes:category>
+	<itunes:category text="Comedy" />
+	<itunes:category text="Leisure">
+		<itunes:category text="Video Games" />
+	</itunes:category>
+	<rawvoice:rating>TV-14</rawvoice:rating>
+	<rawvoice:donate href="https://www.patreon.com/worldwalkers">Patreon</rawvoice:donate>
+	<podcast:funding url="https://www.patreon.com/worldwalkers">Patreon</podcast:funding>
+	<podcast:guid>83a91d16-7596-5dce-a75b-2f622f40fa6b</podcast:guid>
+	<item>
+		<title>Lost Episode &#8211; Can&#8217;t Feel My Funk</title>
+		<link>https://pedrogalicia.com/podcast/2020/07/27/lost-episode-cant-feel-my-funk/</link>
+		<pubDate>Mon, 27 Jul 2020 03:00:21 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1637</guid>
+		<description><![CDATA[<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="99stv" data-offset-key="e848n-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="e848n-0-0"><span data-offset-key="e848n-0-0">For those that don&#8217;t know, my brother Frank passed away recently. I want to make sure all of his recordings are out there so that those that want to hear him have the opportunity. This episode is an oldie from back before World Walkers: Cog was a podcast. We recorded this and I think we shared it once, but it was taken down.</span></div>
+<div data-offset-key="e848n-0-0"></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="99stv" data-offset-key="22g44-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="22g44-0-0"><span data-offset-key="22g44-0-0">Now I&#8217;m sharing it again. I hope you enjoy listening to him again.</span></div>
+<div data-offset-key="22g44-0-0"></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="99stv" data-offset-key="4k83m-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="4k83m-0-0"><span style="text-decoration: underline;"><strong>Music and SFX:</strong></span></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="99stv" data-offset-key="3lca0-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="3lca0-0-0">
+<p><span data-offset-key="3lca0-0-0">Industrial Revolution by Kevin MacLeod Link: https://filmmusic.io/song/3911-industrial-revolution License: </span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="http://creativecommons.org/licenses/by/4.0/"><span data-offset-key="3lca0-1-0">http://creativecommons.org/licenses/by/4.0/</span></a></p>
+</div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="99stv" data-offset-key="8bde1-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="8bde1-0-0"><span data-offset-key="8bde1-0-0">Sound Effects by Syrinscape www.syrinscape.com</span></div>
+</div>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWC-00Funk.mp3" length="73319057" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>36</itunes:episode>
+		<podcast:episode>36</podcast:episode>
+		<itunes:episodeType>bonus</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:16:22</itunes:duration>
+		<itunes:order>1</itunes:order>
+	</item>
+	<item>
+		<title>Side Adventure &#8211; Jiggles&#8217; Day Out! &#8211; E3</title>
+		<link>https://pedrogalicia.com/podcast/2019/12/04/side-adventure-jiggles-day-out-e3/</link>
+		<pubDate>Wed, 04 Dec 2019 20:10:06 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1482</guid>
+		<description><![CDATA[<p>Will the Dog Crew discover what’s happened to Jiggles? Will the Crimson Engine assert dominance?</p>
+<p>And will I be able to survive one more game? These questions and more are answered in Episode 3: Good Boys.</p>
+<p><u><em>Music:<br />
+</em></u>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Bushwick Tarantella&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>) Licensed under Creative Commons: By Attribution 4.0 License <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Riffs&#8221; Alexander Nakarada (<a href="http://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>filmmusic.io</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Grave Matters&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Riffs&#8221; Alexander Nakarada (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Silver Blue Lights&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Deathmatch&#8221; Sascha Ende (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>Music: Tense &#8211; <a href="https://www.purple-planet.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.purple-planet.com</a></p>
+<p>Music Created By : Random Mind<br />
+Song Title: The Old Tower Inn<br />
+Credit link:<a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fgoo.gl%2FcN3oi3&#38;redir_token=gR3FuTNb375-79nfY8iEj9kf0rJ8MTU3MjAxNTIyNEAxNTcxOTI4ODI0&#38;event=video_description&#38;v=4sgM5fLmOac" target="_blank" rel="nofollow noopener noreferrer"> <u>https://goo.gl/cN3oi3</u></a><br />
+Creative Commons: Attribution</p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWJiggles-003.mp3" length="40507412" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>35</itunes:episode>
+		<podcast:episode>35</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>42:12</itunes:duration>
+	</item>
+	<item>
+		<title>Side Adventure &#8211; Jiggles&#8217; Day Out! &#8211; E2</title>
+		<link>https://pedrogalicia.com/podcast/2019/12/04/side-adventure-jiggles-day-out-e2/</link>
+		<pubDate>Wed, 04 Dec 2019 20:09:41 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1481</guid>
+		<description><![CDATA[<p>In our last episode, our cast of canines found themselves in the house of Jiggles, only to find their noses rubbed in some trouble. Several bad dogs were discovered to be tearing up the house, and it’s up to the Dog Crew to find out why!</p>
+<p>Let’s sniff around and find out what happens in our newest episode!</p>
+<p>There’s one more note I should add. There’s a point in this episode where I’m just broken. See if you can find out where it happens.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Finding The Balance&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>) Licensed under Creative Commons: By Attribution 4.0 License <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Take a Chance&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Riffs&#8221; Alexander Nakarada (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Evening Harp&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>“Investigations&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>Music Created By : Random Mind<br />
+Song Title: The Old Tower Inn<br />
+Credit link:<a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fgoo.gl%2FcN3oi3&#38;redir_token=gR3FuTNb375-79nfY8iEj9kf0rJ8MTU3MjAxNTIyNEAxNTcxOTI4ODI0&#38;event=video_description&#38;v=4sgM5fLmOac" target="_blank" rel="nofollow noopener noreferrer"> <u>https://goo.gl/cN3oi3</u></a><u><br />
+</u>Creative Commons: Attribution</p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io</a><br />
+&#8220;Imagefilm 024&#8221; by Sascha Ende (<a href="https://www.sascha-ende.de%29/" target="_blank" rel="nofollow noopener noreferrer">https://www.sascha-ende.de)</a><br />
+License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></p>
+<p>Music &#8211; &#8220;Soft Orange Glow&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer">http://joshwoodward.com/</a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWJiggles-002.mp3" length="68484776" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>34</itunes:episode>
+		<podcast:episode>34</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:11:20</itunes:duration>
+	</item>
+	<item>
+		<title>Side Adventure &#8211; Jiggles&#8217; Day Out! &#8211; E1</title>
+		<link>https://pedrogalicia.com/podcast/2019/11/04/side-adventure-jiggles-day-out-e1/</link>
+		<pubDate>Mon, 04 Nov 2019 22:19:07 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1476</guid>
+		<description><![CDATA[<p>At long last, the long-awaited story of Jiggles&#8217; Day Out!</p>
+<p>Back in the beginning of Season One of World Walkers: Cog, Sabin had a little Porgi of a dog named Jiggles. When Sabin left Falas, he left Jiggles on his own. But what happened to him? And how do we find out??</p>
+<p>The answer is canine characters. Of course.</p>
+<p>Join the Cog Crew as they each play a different dog-based character and explore a <em>completely different </em>side of the Steam-Powered World of Cog&#8230;</p>
+<p><u><strong>MUSIC:<br />
+</strong></u><br />
+&#8220;Evil lncoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Silver Blue Light&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Riffs&#8221; Alexander Nakarada (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>) Licensed under Creative Commons: By Attribution 4.0 License <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>Music: Moments by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a><br />
+Music: Yearning by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects and Additional Music:<br />
+</em></u><a href="https://syrinscape.com/store/" target="_blank" rel="nofollow noopener noreferrer">https://syrinscape.com/store/</a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWJiggles-001.mp3" length="71302028" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>33</itunes:episode>
+		<podcast:episode>33</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:14:16</itunes:duration>
+	</item>
+	<item>
+		<title>The Return &#8211; S1:E32</title>
+		<link>https://pedrogalicia.com/podcast/2019/10/04/the-return-s1e32/</link>
+		<pubDate>Fri, 04 Oct 2019 01:57:24 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1467</guid>
+		<description><![CDATA[<p>The end of Season One is here&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>&#8220;Evil lncoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Frozen Star&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Grave Matters&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="nofollow noopener noreferrer"><u>incompetech.com</u></a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>Music &#8211; &#8220;Roll Away The Stone&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer">http://joshwoodward.com/</a></p>
+<p><u><em>Sound Effects:</em></u><br />
+<a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode032.mp3" length="15996152" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>32</itunes:episode>
+		<podcast:episode>32</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>16:40</itunes:duration>
+	</item>
+	<item>
+		<title>I&#8217;ll Stop Trying To Remember Things &#8211; S1:E31</title>
+		<link>https://pedrogalicia.com/podcast/2019/09/23/ill-stop-trying-to-remember-things-s1e31/</link>
+		<pubDate>Mon, 23 Sep 2019 21:18:40 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1353</guid>
+		<description><![CDATA[<div data-tag="post-content-collapse">
+<div aria-expanded="true">
+<div>
+<div>
+<div class="s1obcvhp-0 gfSHGb s1lytjva-0 eiOwsH">
+<p>The end of Season One is approaching, and with that means wrapping things up. And we’re not referring to just one of the party members…</p>
+<p><u><em>Music:</em></u></p>
+<p>&#8220;Evil lncoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a></p>
+<p>&#8220;Crypto&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Anamalie&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Stormfront&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Sad Trio&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Silver Blue Light&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sc-cSHVUG kUFhtY" data-tag="post-tags">
+<div class="sc-cSHVUG cHGfVW">
+<div class="sc-cSHVUG eBJGHF">
+<div class="sc-jKJlTe kKCTNw"></div>
+</div>
+</div>
+</div>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode031.mp3" length="40521590" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>31</itunes:episode>
+		<podcast:episode>31</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>42:13</itunes:duration>
+	</item>
+	<item>
+		<title>The Decision – S1:E30</title>
+		<link>https://pedrogalicia.com/podcast/2019/09/13/the-decision-s1e30/</link>
+		<pubDate>Fri, 13 Sep 2019 22:25:12 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1349</guid>
+		<description><![CDATA[<p>The Cog Crew has dealt with nearly every issue on the Gambler. Everything but one.</p>
+<p>Niome.</p>
+<p>A decision must be made.</p>
+<p><u><strong>MUSIC:</strong></u><br />
+Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a> &#8220;Evil Incoming&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a><br />
+License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a> &#8220;Silver Blue Light&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer"><u>https://filmmusic.io</u></a> &#8220;Frozen Star&#8221; by Kevin MacLeod<br />
+(<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer"><u>https://incompetech.com)</u></a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/)</u></a></p>
+<p>Music &#8211; &#8220;Release&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a></p>
+<p>Music: Yearning by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.silvermansound.com</u></a><br />
+Music: Piano Romantisme by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.silvermansound.com</u></a></p>
+<p>Sound Effects and Additional Music:<br />
+<a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode030.mp3" length="42858875" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>30</itunes:episode>
+		<podcast:episode>30</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>44:39</itunes:duration>
+	</item>
+	<item>
+		<title>Mack Daddy Swayze – S1:E29</title>
+		<link>https://pedrogalicia.com/podcast/2019/09/08/mack-daddy-swayze-s1e29/</link>
+		<pubDate>Sun, 08 Sep 2019 15:13:12 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1339</guid>
+		<description><![CDATA[<p>The Forged have their hands full with the interrogation of an enemy, while the fate of The Captain will be decided as Sabin makes his final decision.</p>
+<p><u><strong>MUSIC:</strong></u><br />
+Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io</a> &#8220;Impending Boom&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a><br />
+License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io</a> &#8220;Evil Incoming&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io</a> &#8220;Lost Frontier&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io</a> &#8220;Frozen Star&#8221; by Kevin MacLeod<br />
+(<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a> License: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/)" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/)</a></p>
+<p>Music &#8211; &#8220;Release&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer">http://joshwoodward.com/</a></p>
+<p>Music: Yearning by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a><br />
+Music: Piano Romantisme by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a></p>
+<p>Additional Music: <a href="https://www.purple-planet.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.purple-planet.com</a></p>
+<p>Sound Effects and Additional Music:<br />
+<a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode029.mp3" length="27184262" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>29</itunes:episode>
+		<podcast:episode>29</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>28:19</itunes:duration>
+	</item>
+	<item>
+		<title>Well I’m In Sort Of A Bad Position &#8211; S1:E28</title>
+		<link>https://pedrogalicia.com/podcast/2019/08/29/well-im-in-sort-of-a-bad-position-s1e28/</link>
+		<pubDate>Thu, 29 Aug 2019 14:25:19 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=910</guid>
+		<description><![CDATA[<p><u><em>Music:<br />
+</em></u>&#8220;Evil lncoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a></p>
+<p>&#8220;Take A Chance&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Anamalie&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Metalmania&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>&#8220;Frozen Star&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 4.0 License<br />
+<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a></p>
+<p>Music: The Victory Of Heroes by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode028.mp3" length="40474052" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>28</itunes:episode>
+		<podcast:episode>28</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>42:10</itunes:duration>
+	</item>
+	<item>
+		<title>Owl Roar &#8211; S1:E27</title>
+		<link>https://pedrogalicia.com/podcast/2019/08/22/owl-roar-s1e27/</link>
+		<pubDate>Thu, 22 Aug 2019 16:59:25 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=898</guid>
+		<description><![CDATA[<p>While the deck of the Gambler has been cleared, victory can’t be declared yet. Nova has vanished, the engine room is still being held, and the Cog Crew has some tough choices to make&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Within&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Metalmania&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Piano Romantisme&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects and Additional Sound Effects:</em></u></p>
+<p><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode027.mp3" length="35023445" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>27</itunes:episode>
+		<podcast:episode>27</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>36:29</itunes:duration>
+	</item>
+	<item>
+		<title>Castigation &#8211; S1:E26</title>
+		<link>https://pedrogalicia.com/podcast/2019/07/23/castigation-s1e26/</link>
+		<pubDate>Tue, 23 Jul 2019 02:12:54 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=861</guid>
+		<description><![CDATA[<p>The Cog Crew has battled their way through the Gambler and down below. They’re tired, they’re running out of ammunition and resources, and they’re about to face the toughest fight of this campaign.</p>
+<p><u><em>Music:<br />
+</em></u>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“The Dread&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music &#8211; &#8220;Roll Away The Stone&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener noreferrer"><u>http://joshwoodward.com/</u></a></p>
+<p>Additional Music by Rafael Krux</p>
+<p><u><em>Sound Effects and Additional Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode026.mp3" length="72674375" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>26</itunes:episode>
+		<podcast:episode>26</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:15:42</itunes:duration>
+	</item>
+	<item>
+		<title>Nevermind About Surprise &#8211; S1:E25</title>
+		<link>https://pedrogalicia.com/podcast/2019/06/25/nevermind-about-surprise-s1e25/</link>
+		<pubDate>Tue, 25 Jun 2019 18:57:39 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=852</guid>
+		<description><![CDATA[<div class="stackable mb-xs"></div>
+<div data-tag="post-content-collapse">
+<div aria-expanded="true">
+<div>
+<div>
+<div class="nfbshm-0 fNLJkq s1lytjva-0 eiOwsH">
+<p>The Cog Crew continues their sweep through the Gambler, attempting to discover what their invaders are planning.</p>
+<p>This episode is shorter than normal, but the decision the group makes in this one will affect the rest of the adventure going forward.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Long Note One&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Tense &#8211; Purple Planet Music<br />
+Music: <a href="https://www.purple-planet.com/" target="_blank" rel="nofollow noopener noreferrer"><u>https://www.purple-planet.com</u></a></p>
+<p><u><em>Sound Effects and Additional Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode025.mp3" length="24856985" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>25</itunes:episode>
+		<podcast:episode>25</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>25:54</itunes:duration>
+	</item>
+	<item>
+		<title>Lease A New Sabin &#8211; S1:E24</title>
+		<link>https://pedrogalicia.com/podcast/2019/05/31/lease-a-new-sabin-s1e24/</link>
+		<pubDate>Fri, 31 May 2019 02:38:36 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=844</guid>
+		<description><![CDATA[<p>The Gambler is under siege. No one can be trusted. The entire airship has been taken over, from the Captain’s Quarters to the Engine Room. If the Cog Crew isn’t careful, everything they’ve worked for will be for nothing.</p>
+<p>Not only that, but the Captain has to Nova that he has a Gunslinger’s weapon, a possession that carries with it a death sentence from any follower of the Creed.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Constance&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Additional Music from Rafael Krux of <a href="http://freepd.com/" target="_blank" rel="noopener noreferrer">FreePD.com</a></p>
+<p><u><em>Sound Effects and Additional Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode024.mp3" length="33343769" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>24</itunes:episode>
+		<podcast:episode>24</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>34:44</itunes:duration>
+	</item>
+	<item>
+		<title>Liquid Rage &#8211; S1:E23</title>
+		<link>https://pedrogalicia.com/podcast/2019/05/21/liquid-rage-s1e23/</link>
+		<pubDate>Tue, 21 May 2019 15:01:15 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=842</guid>
+		<description><![CDATA[<p>It’s all smooth sailing from here as the Cog Crew coasts through the skies, patiently waiting until they arrive in Falas. Listen in as the group gets a chance to meet the new passengers, learn what to do with a body and generally has a relaxed time aboard the Gambler.</p>
+<p>Reggie couldn’t be here with us in this adventure, but don’t worry! Frankie volunteered to play Luca, regardless of our wishes.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music: Piano Romantisme by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects and Additional Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode023.mp3" length="55515242" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>23</itunes:episode>
+		<podcast:episode>23</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>57:50</itunes:duration>
+	</item>
+	<item>
+		<title>Have Some Beer &#8211; S1:E22</title>
+		<link>https://pedrogalicia.com/podcast/2019/05/03/have-some-beer-s1e22/</link>
+		<pubDate>Fri, 03 May 2019 19:24:39 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=837</guid>
+		<description><![CDATA[<p>After (mostly) surviving the aftermath of recent events, the Cog Crew has is finally moving towards their ultimate goal: the retrieval of the spiritual leader of the Forged. All that’s left to do is figure out how to load the package, speak with a certain bard, and butt heads with Mr. Wibbles&#8230;</p>
+<p><u><em>Music:<br />
+</em></u>“Marty Gots a Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>&#8220;Midnight Tale&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:</em></u></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode022.mp3" length="29217971" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>22</itunes:episode>
+		<podcast:episode>22</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>30:26</itunes:duration>
+	</item>
+	<item>
+		<title>Rise And Shine &#8211; S1:E21</title>
+		<link>https://pedrogalicia.com/podcast/2019/04/26/rise-and-shine-s1e21/</link>
+		<pubDate>Fri, 26 Apr 2019 20:34:46 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=836</guid>
+		<description><![CDATA[<p>With one of the Cog Crew down, and help unreliable, can the rest of the group survive what happens next?</p>
+<p><u><em>Music:</em></u></p>
+<p>“Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots a Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Noble Race&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music: The Victory Of Heroes by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener noreferrer">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects and Additional Music:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode021.mp3" length="48063035" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>21</itunes:episode>
+		<podcast:episode>21</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>50:04</itunes:duration>
+	</item>
+	<item>
+		<title>Opening The Gates To Self Love &#8211; S1:E20</title>
+		<link>https://pedrogalicia.com/podcast/2019/04/12/opening-the-gates-to-self-love-s1e20/</link>
+		<pubDate>Fri, 12 Apr 2019 02:36:06 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=833</guid>
+		<description><![CDATA[<p>The Cog Crew has been searching for a way to transport the paralyzed leader of the Forged, Sanctuary. Now, the group’s found transportation, coupled with trouble. What will it take to get out of this situation alive?</p>
+<p><u><em>Music:</em></u></p>
+<p>“Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots a Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Mesmerize&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Long Note One&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Noble Race&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Additional Music by Rafael Krux</p>
+<p><u><em>Sound Effects and Additional Music:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode020.mp3" length="62011685" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>20</itunes:episode>
+		<podcast:episode>20</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:04:36</itunes:duration>
+	</item>
+	<item>
+		<title>What Was Your Plan?! &#8211; S1:E19</title>
+		<link>https://pedrogalicia.com/podcast/2019/03/22/what-was-your-plan-s1e19/</link>
+		<pubDate>Fri, 22 Mar 2019 18:09:25 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=827</guid>
+		<description><![CDATA[<p>The Cog Crew has taken position on a path outside E’Golium. Now, they wait for a caravan to make its way to Dormaneer so that they can seize it and move Sanctuary.</p>
+<p>What they’ll find may not be what they expect, however&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Invariance&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Mesmerize&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>) Licensed under Creative Commons: By Attribution 3.0 License <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects and Additional Music:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode019.mp3" length="64942361" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>19</itunes:episode>
+		<podcast:episode>19</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:07:39</itunes:duration>
+	</item>
+	<item>
+		<title>Off The Rails &#8211; S1:E18</title>
+		<link>https://pedrogalicia.com/podcast/2019/02/26/off-the-rails-s1e18/</link>
+		<pubDate>Tue, 26 Feb 2019 02:24:52 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=801</guid>
+		<description><![CDATA[<p>Anyone who’s played in an ongoing campaign has experienced this. You miss a couple of games. You’re dying to get the group back together. And then finally, everyone’s back at the table. And you’d think you’d be ready to break out the dice and jump back into the game.</p>
+<p>What happens instead is everybody’s so excited to hang out again that you’re lucky if you even play that night. We sat down and recorded for over two hours this session. I’ma tell you up front: I got much less than two hours of World Walkers: Cog.</p>
+<p>That’s why I’m calling this one Episode Eighteen &#8211; Off The Rails&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Long Note One&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Thinking Music&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode018.mp3" length="39984494" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>18</itunes:episode>
+		<podcast:episode>18</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>41:39</itunes:duration>
+	</item>
+	<item>
+		<title>I&#8217;m Dick Van Dyke &#8211; S1:E17</title>
+		<link>https://pedrogalicia.com/podcast/2019/02/19/world-walkers-cog-season-one-episode-seventeen-im-dick-van-dyke/</link>
+		<pubDate>Tue, 19 Feb 2019 02:20:58 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=799</guid>
+		<description><![CDATA[<p>The Cog Crew have finally found Sanctuary, the spiritual leader of the Forged, on a farm north of the city of E’golium. The group elected Sabin and Haversack to sneak into the city to secure transport large enough to move their newly found cargo, the details of which can be heard in the Patreon-Exclusive Side Adventure The City Of Lights.</p>
+<p>We join the Cog Crew now as they wait for word on the success or failure of their sneaky companions in Episode Seventeen: I’m Dick Van Dyke.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener">https://filmmusic.io:</a><br />
+&#8220;Silver Blue Light&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener">https://incompetech.com)</a><br />
+Licence: CC BY (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/4.0/</u></a>)</p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener">https://filmmusic.io:</a><br />
+&#8220;Final Destination&#8221; by Sascha Ende (<a href="https://filmmusic.io%29/" target="_blank" rel="nofollow noopener">https://filmmusic.io)</a><br />
+Licence: CC BY-SA + (<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by-sa/4.0/</u></a>)</p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode017.mp3" length="51620879" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>17</itunes:episode>
+		<podcast:episode>17</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>53:46</itunes:duration>
+	</item>
+	<item>
+		<title>Side Adventure: The City of Lights</title>
+		<link>https://pedrogalicia.com/podcast/2019/01/27/side-adventure-world-walkers-cog-the-city-of-lights/</link>
+		<pubDate>Sun, 27 Jan 2019 03:29:36 +0000</pubDate>
+		<guid isPermaLink="false">https://worldwalkerspodcast.com/?p=1639</guid>
+		<description><![CDATA[<p>The Cog Crew has entrusted Sabin and Haversack to journey into E’Golium, The City of Lights, and come back with transportation, so that they can begin moving Sanctuary,  the paralyzed leader of the Forged, back to Falas. A pretty simple in-and-out mission, right?</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“The Chamber&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Anamalie&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Drums of the Deep&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io:</a><br />
+&#8220;Silver Blue Light&#8221; by Kevin MacLeod (<a href="https://incompetech.com%29/" target="_blank" rel="nofollow noopener noreferrer">https://incompetech.com)</a><br />
+Licence: CC BY (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by/4.0/</u></a>)</p>
+<p>Music from <a href="https://filmmusic.io/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io:</a><br />
+&#8220;Deathmatch&#8221; by Sascha Ende (<a href="https://filmmusic.io%29/" target="_blank" rel="nofollow noopener noreferrer">https://filmmusic.io)</a><br />
+Licence: CC BY-SA + (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="nofollow noopener noreferrer"><u>http://creativecommons.org/licenses/by-sa/4.0/</u></a>)<br />
+<em>Altered/Remixed from original version by Pedro Galicia</em></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener noreferrer"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWC-SideAdventure-CityOfLights.mp3" length="63388619" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>17</itunes:episode>
+		<podcast:episode>17</podcast:episode>
+		<itunes:episodeType>bonus</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:06:02</itunes:duration>
+	</item>
+	<item>
+		<title>Now He Can Fly In Hell &#8211; S1:E16</title>
+		<link>https://pedrogalicia.com/podcast/2019/01/25/world-walkers-cog-season-one-episode-sixteen-now-he-can-fly-in-hell/</link>
+		<pubDate>Fri, 25 Jan 2019 21:02:53 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=740</guid>
+		<description><![CDATA[<p>The Cog Crew continues to battle the forces of Dormaneer, all the while hoping that Sanctuary remains undiscovered. The odds are not in their favor, however, and soon they’ll be out of spells, resources, and time&#8230;</p>
+<p><u><em>Music:<br />
+</em></u>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>“Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>“Anamalie&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>“Firesong&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener">http://creativecommons.org/licenses/by/3.0/</a></p>
+<p>Additional Music by Rafael Krux<br />
+Music &#8211; &#8220;Roll Away The Stone&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener">http://joshwoodward.com/</a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener">store.syrinscape.com/what-is-syrinscape/?att</a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode016.mp3" length="70547675" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>16</itunes:episode>
+		<podcast:episode>16</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:13:29</itunes:duration>
+	</item>
+	<item>
+		<title>Doomship &#8211; S1:E15</title>
+		<link>https://pedrogalicia.com/podcast/2019/01/12/world-walkers-cog-season-one-episode-fifteen-doomship/</link>
+		<pubDate>Sat, 12 Jan 2019 16:36:32 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=731</guid>
+		<description><![CDATA[<p>Dormaneer’s shadow has fallen upon the Cog Crew. Now, the group must face their wrath, all while trying to find a way to free Sanctuary from his prison.</p>
+<p>What is Dormaneer’s end game? And will the Cog Crew live long enough to see it?</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Mistake The Getaway&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Additional Music by Rafael Krux<br />
+Music: Temptation Sensation by Heinz Kiessling</p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode015.mp3" length="56269178" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>15</itunes:episode>
+		<podcast:episode>15</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>58:37</itunes:duration>
+	</item>
+	<item>
+		<title>Cookie Crisps &#8211; S1:E14</title>
+		<link>https://pedrogalicia.com/podcast/2019/01/04/world-walkers-cog-season-one-episode-fourteen-cookie-crisps/</link>
+		<pubDate>Fri, 04 Jan 2019 15:23:16 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=726</guid>
+		<description><![CDATA[<p>The Cog Crew has escaped the Travel City of Cosnick. They now make their way to E’Golium, where they hope to discover Sanctuary, the lost leader of the Forged. All they have to do is deal with stowaways, hankey talk, cookies, and an irrational fear of farms&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“The Chamber&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Additional Music by Rafael Krux<u><br />
+</u>Music: Piano Romantisme by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode014.mp3" length="74166818" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>14</itunes:episode>
+		<podcast:episode>14</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:17:15</itunes:duration>
+	</item>
+	<item>
+		<title>John Wilkes Oops &#8211; S1:E13</title>
+		<link>https://pedrogalicia.com/podcast/2018/12/28/world-walkers-cog-season-one-episode-thirteen-john-wilkes-oops/</link>
+		<pubDate>Fri, 28 Dec 2018 22:44:52 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=721</guid>
+		<description><![CDATA[<p>The Travel City of Cosnick has proven to be no friend to the Cog Crew. Nova has lost her gold and become stranded in the Lower City. The group made their way below to find their Forged companion, only to encounter hostility at every turn.</p>
+<p>Can the group find Nova before she burns down every seedy tavern in the Lower City? And even if they do, will the Brotherhood of Iron let them back into the Upper City and back to the Gambler?</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Hitman&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Industrial Cinematic&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Anamalie&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Phantasm&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music &#8211; &#8220;Roll Away The Stone&#8221; by Josh Woodward. Free download: <a href="http://joshwoodward.com/" target="_blank" rel="nofollow noopener"><u>http://joshwoodward.com/</u></a><u><br />
+</u>Music: The Gatekeepers by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects and Additional Music:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode013.mp3" length="78545318" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>13</itunes:episode>
+		<podcast:episode>13</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:21:49</itunes:duration>
+	</item>
+	<item>
+		<title>Lower City Blues &#8211; S1:E12</title>
+		<link>https://pedrogalicia.com/podcast/2018/12/21/world-walkers-cog-season-one-episode-twelve-lower-city-blues/</link>
+		<pubDate>Fri, 21 Dec 2018 16:39:32 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=717</guid>
+		<description><![CDATA[<p>When last we left the Cog Crew, they had set foot in the Travel City of Cosnick. Darvin had managed to stumble upon a secret society, while Sabin came face to face with the Brotherhood of Iron, the dwarves that controlled the technology that powered the city. Tensions rose, and rather than end up in The Cellar, the Brotherhood’s prison complex, Sabin returned to the Gambler.</p>
+<p>Let’s see if Nova fares any better&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Industrial Cinematic&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Movement Proposition&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Phantasm&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Spy Glass&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Volatile&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode012.mp3" length="54293015" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>12</itunes:episode>
+		<podcast:episode>12</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>56:33</itunes:duration>
+	</item>
+	<item>
+		<title>The Travel City of Cosnick &#8211; S1:E11</title>
+		<link>https://pedrogalicia.com/podcast/2018/12/14/world-walkers-cog-season-one-episode-eleven-the-travel-city-of-cosnick/</link>
+		<pubDate>Fri, 14 Dec 2018 17:57:44 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=711</guid>
+		<description><![CDATA[<p>The Cog Crew has boarded the Gambler in hopes of finding Sanctuary, the lost spiritual leader of the Forged. Their journey will take them through the treacherous De&#8217;Rango Mountains, though the crew has guaranteed them safe passage. We join the group as they recount the events of the last game.</p>
+<p>Let’s join them as we enter Season One: Episode Eleven &#8211; The Travel City of Cosnick</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Industrial Revolution&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Stormfront&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Sinfonia Number 5&#8243; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode011.mp3" length="46322060" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>11</itunes:episode>
+		<podcast:episode>11</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>48:15</itunes:duration>
+	</item>
+	<item>
+		<title>String Theory &#8211; S1:E10</title>
+		<link>https://pedrogalicia.com/podcast/2018/12/10/world-walkers-cog-season-one-episode-ten-string-theory/</link>
+		<pubDate>Mon, 10 Dec 2018 20:51:59 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=709</guid>
+		<description><![CDATA[<p>The Cog Crew has decided to help Lexter, though the circumstances could have been better. Now all that’s left to do is speak to Haversack about getting paid and secure passage to E’Golium. That means finding an airship that they can trust.</p>
+<p>That should be pretty straightforward. Unless Sabin or his real life counterpart Frank don’t derail things in and out of game&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Industrial Revolution&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Evening Fall&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Anamalie&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><em>Music: The Victory Of Heroes by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener">https://www.silvermansound.com</a></em></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode010.mp3" length="76522725" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>10</itunes:episode>
+		<podcast:episode>10</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:19:19</itunes:duration>
+	</item>
+	<item>
+		<title>The One With All The Lore &#8211; S1:E9</title>
+		<link>https://pedrogalicia.com/podcast/2018/11/30/world-walkers-cog-season-one-episode-nine-the-one-with-all-the-lore/</link>
+		<pubDate>Fri, 30 Nov 2018 22:05:27 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=700</guid>
+		<description><![CDATA[<p>Lexter has revealed himself as much more than just a local ritualist. Now, the group is about to uncover the secrets of the Forged, and perhaps even more&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Industrial Cinematic&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Lost Frontier&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Soaring&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“The Escalation&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode009.mp3" length="41698781" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>9</itunes:episode>
+		<podcast:episode>9</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>43:26</itunes:duration>
+	</item>
+	<item>
+		<title>Jiggles&#8217; Day Out -S1:E8</title>
+		<link>https://pedrogalicia.com/podcast/2018/11/17/world-walkers-cog-season-one-episode-eight-jiggles-day-out/</link>
+		<pubDate>Sat, 17 Nov 2018 17:07:09 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=676</guid>
+		<description><![CDATA[<p>In the aftermath of Bo’Ko’Ko’s fall, Luca and Nova have mysteriously lost their hearing. With nowhere else to turn, the group is forced to return to Falas and seek the aid of Lexter, the old man who originally gave them control over their sense of hearing in the first place.</p>
+<p>The group remains suspicious, but what choice do they have?</p>
+<p><strong>NOTE: </strong>Please redownload the episode. There was an error in the beginning that&#8217;d been fixed.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Movement Proposition&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Grave Matters&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Soaring&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><em>Additional Music Provided By Dogsounds and Rafael Krux</em></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode008.mp3" length="43288802" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>8</itunes:episode>
+		<podcast:episode>8</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>45:06</itunes:duration>
+	</item>
+	<item>
+		<title>The Champagne Room &#8211; S1:E7</title>
+		<link>https://pedrogalicia.com/podcast/2018/11/09/world-walkers-cog-season-one-episode-seven-the-champagne-room/</link>
+		<pubDate>Fri, 09 Nov 2018 03:47:46 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=662</guid>
+		<description><![CDATA[<p>Bo’Ko’Ko has fallen. The Goblins have found freedom. Their bugbear masters have been executed. Now, Haversack and the rest of the group are ready to depart the Echo Forest once and for all.</p>
+<p>Unless… they decide to have a look around first&#8230;</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Asian Drums&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Clash Defiant&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Lost Defiant&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode007.mp3" length="40369385" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>7</itunes:episode>
+		<podcast:episode>7</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>42:03</itunes:duration>
+	</item>
+	<item>
+		<title>Outtakes &#8211; Cog Vs. Yu-Gi-Oh</title>
+		<link>https://pedrogalicia.com/podcast/2018/11/03/world-walkers-cog-outtakes-cog-vs-yu-gi-oh/</link>
+		<pubDate>Sat, 03 Nov 2018 13:59:53 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=657</guid>
+		<description><![CDATA[<p>Normally, I try to balance out our episodes with a good balance of in-game story and table talk. I want our podcast to feel like you’re at our game, hanging with us, but you’re also in the story, feeling what the players feel when they’re immersed in the world. To keep that balance, sometimes I have to save something for the outtakes at the end of the episode.</p>
+<p>That all changed with Episode Six: Dayturnal. We had conversations that were too off-topic to keep in the episode, but when I put them together at the end, it was way too much to just tack on afterwards. So I decided to leave a bit for Dayturnal, and save the rest for this episode.</p>
+<p>So enjoy this bonus outtake episode of World Walkers: Cog. Inside you’ll find talk of My Hero Acadamia, hate crimes against music, and a breakdown of Yu-Gi-Oh that left me with a lot of questions.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-EpisodeCvsYuGiOh.mp3" length="42476636" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episodeType>bonus</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>29:30</itunes:duration>
+	</item>
+	<item>
+		<title>Dayturnal &#8211; S1:E6</title>
+		<link>https://pedrogalicia.com/podcast/2018/11/02/world-walkers-cog-season-one-episode-six-dayturnal/</link>
+		<pubDate>Fri, 02 Nov 2018 17:47:05 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=653</guid>
+		<description><![CDATA[<p>Our intrepid group of adventurers have been through a lot since they’ve entered the Echo Forest, but their journey has come to its end.</p>
+<p>It’s time to gather their gear, come up with a plan, and lead an assault on Bo’Ko’Ko, the goblin capital, and home to Haversack’s bugbear master, who they’ve been hired to kill.</p>
+<p>Can they break into Bo’Ko’Ko and face down an empire? Can they give Haversack the fight, and the closure he needs?</p>
+<p><u><em>Music</em></u><em><strong>:</strong></em></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Marty Gots A Plan&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Drums Of The Deep&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Ever Mindful&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Music: Action and Adventure by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener"><u>https://www.silvermansound.com</u></a></p>
+<p>Music: Passage Of Arms by Shane Ivers &#8211; <a href="https://www.silvermansound.com/" target="_blank" rel="nofollow noopener">https://www.silvermansound.com</a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode006.mp3" length="69438455" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>6</itunes:episode>
+		<podcast:episode>6</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:12:20</itunes:duration>
+	</item>
+	<item>
+		<title>Whoa, Black Betty &#8211; S1:E5</title>
+		<link>https://pedrogalicia.com/podcast/2018/10/26/world-walkers-cog-season-one-episode-five-whoa-black-betty/</link>
+		<pubDate>Fri, 26 Oct 2018 21:14:01 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=649</guid>
+		<description><![CDATA[<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="1ib9t-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="1ib9t-0-0">
+<p><span data-offset-key="1ib9t-0-0">Darvin, Lucca, Nova and Sabin have learned that the Bugbears of the Echo Forest scatter pockets of powerful items all over. Now, if the group hopes to invade their stronghold, they’ll have to recover these items and arm themselves. The problem is, they’ve got their employer, Haversack as their guide.</span></p>
+</div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="3hsko-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="3hsko-0-0"><span data-offset-key="3hsko-0-0">You know, the goblin that thinks his cat talks to a god named Cogliostro?</span></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="6v56i-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="6v56i-0-0"><span data-offset-key="6v56i-0-0"><br />
+<em><span style="text-decoration: underline;">M</span></em></span><em><em><span style="text-decoration: underline;">usic:</span></em></em></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="eklv3-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="eklv3-0-0"><span data-offset-key="eklv3-0-0">“Evil Incoming&#8221; Kevin MacLeod (</span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="http://incompetech.com/"><span data-offset-key="eklv3-1-0">i</span><span data-offset-key="eklv3-1-1">n</span><span data-offset-key="eklv3-1-2">c</span><span data-offset-key="eklv3-1-3">o</span><span data-offset-key="eklv3-1-4">m</span><span data-offset-key="eklv3-1-5">p</span><span data-offset-key="eklv3-1-6">e</span><span data-offset-key="eklv3-1-7">t</span><span data-offset-key="eklv3-1-8">e</span><span data-offset-key="eklv3-1-9">c</span><span data-offset-key="eklv3-1-10">h</span><span data-offset-key="eklv3-1-11">.</span><span data-offset-key="eklv3-1-12">c</span><span data-offset-key="eklv3-1-13">o</span><span data-offset-key="eklv3-1-14">m</span></a><span data-offset-key="eklv3-2-0">)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+</span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="https://creativecommons.org/licenses/by/3.0/"><span data-offset-key="eklv3-3-0">h</span><span data-offset-key="eklv3-3-1">t</span><span data-offset-key="eklv3-3-2">t</span><span data-offset-key="eklv3-3-3">p</span><span data-offset-key="eklv3-3-4">:</span><span data-offset-key="eklv3-3-5">/</span><span data-offset-key="eklv3-3-6">/</span><span data-offset-key="eklv3-3-7">c</span><span data-offset-key="eklv3-3-8">r</span><span data-offset-key="eklv3-3-9">e</span><span data-offset-key="eklv3-3-10">a</span><span data-offset-key="eklv3-3-11">t</span><span data-offset-key="eklv3-3-12">i</span><span data-offset-key="eklv3-3-13">v</span><span data-offset-key="eklv3-3-14">e</span><span data-offset-key="eklv3-3-15">c</span><span data-offset-key="eklv3-3-16">o</span><span data-offset-key="eklv3-3-17">m</span><span data-offset-key="eklv3-3-18">m</span><span data-offset-key="eklv3-3-19">o</span><span data-offset-key="eklv3-3-20">n</span><span data-offset-key="eklv3-3-21">s</span><span data-offset-key="eklv3-3-22">.</span><span data-offset-key="eklv3-3-23">o</span><span data-offset-key="eklv3-3-24">r</span><span data-offset-key="eklv3-3-25">g</span><span data-offset-key="eklv3-3-26">/</span><span data-offset-key="eklv3-3-27">l</span><span data-offset-key="eklv3-3-28">i</span><span data-offset-key="eklv3-3-29">c</span><span data-offset-key="eklv3-3-30">e</span><span data-offset-key="eklv3-3-31">n</span><span data-offset-key="eklv3-3-32">s</span><span data-offset-key="eklv3-3-33">e</span><span data-offset-key="eklv3-3-34">s</span><span data-offset-key="eklv3-3-35">/</span><span data-offset-key="eklv3-3-36">b</span><span data-offset-key="eklv3-3-37">y</span><span data-offset-key="eklv3-3-38">/</span><span data-offset-key="eklv3-3-39">3</span><span data-offset-key="eklv3-3-40">.</span><span data-offset-key="eklv3-3-41">0</span><span data-offset-key="eklv3-3-42">/</span></a></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="ccaq7-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="ccaq7-0-0"><span data-offset-key="ccaq7-0-0"><br />
+“Volatile Reaction&#8221; Kevin MacLeod (</span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="http://incompetech.com/"><span data-offset-key="ccaq7-1-0">i</span><span data-offset-key="ccaq7-1-1">n</span><span data-offset-key="ccaq7-1-2">c</span><span data-offset-key="ccaq7-1-3">o</span><span data-offset-key="ccaq7-1-4">m</span><span data-offset-key="ccaq7-1-5">p</span><span data-offset-key="ccaq7-1-6">e</span><span data-offset-key="ccaq7-1-7">t</span><span data-offset-key="ccaq7-1-8">e</span><span data-offset-key="ccaq7-1-9">c</span><span data-offset-key="ccaq7-1-10">h</span><span data-offset-key="ccaq7-1-11">.</span><span data-offset-key="ccaq7-1-12">c</span><span data-offset-key="ccaq7-1-13">o</span><span data-offset-key="ccaq7-1-14">m</span></a><span data-offset-key="ccaq7-2-0">)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+</span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="https://creativecommons.org/licenses/by/3.0/"><span data-offset-key="ccaq7-3-0">h</span><span data-offset-key="ccaq7-3-1">t</span><span data-offset-key="ccaq7-3-2">t</span><span data-offset-key="ccaq7-3-3">p</span><span data-offset-key="ccaq7-3-4">:</span><span data-offset-key="ccaq7-3-5">/</span><span data-offset-key="ccaq7-3-6">/</span><span data-offset-key="ccaq7-3-7">c</span><span data-offset-key="ccaq7-3-8">r</span><span data-offset-key="ccaq7-3-9">e</span><span data-offset-key="ccaq7-3-10">a</span><span data-offset-key="ccaq7-3-11">t</span><span data-offset-key="ccaq7-3-12">i</span><span data-offset-key="ccaq7-3-13">v</span><span data-offset-key="ccaq7-3-14">e</span><span data-offset-key="ccaq7-3-15">c</span><span data-offset-key="ccaq7-3-16">o</span><span data-offset-key="ccaq7-3-17">m</span><span data-offset-key="ccaq7-3-18">m</span><span data-offset-key="ccaq7-3-19">o</span><span data-offset-key="ccaq7-3-20">n</span><span data-offset-key="ccaq7-3-21">s</span><span data-offset-key="ccaq7-3-22">.</span><span data-offset-key="ccaq7-3-23">o</span><span data-offset-key="ccaq7-3-24">r</span><span data-offset-key="ccaq7-3-25">g</span><span data-offset-key="ccaq7-3-26">/</span><span data-offset-key="ccaq7-3-27">l</span><span data-offset-key="ccaq7-3-28">i</span><span data-offset-key="ccaq7-3-29">c</span><span data-offset-key="ccaq7-3-30">e</span><span data-offset-key="ccaq7-3-31">n</span><span data-offset-key="ccaq7-3-32">s</span><span data-offset-key="ccaq7-3-33">e</span><span data-offset-key="ccaq7-3-34">s</span><span data-offset-key="ccaq7-3-35">/</span><span data-offset-key="ccaq7-3-36">b</span><span data-offset-key="ccaq7-3-37">y</span><span data-offset-key="ccaq7-3-38">/</span><span data-offset-key="ccaq7-3-39">3</span><span data-offset-key="ccaq7-3-40">.</span><span data-offset-key="ccaq7-3-41">0</span><span data-offset-key="ccaq7-3-42">/</span></a></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="der5t-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="der5t-0-0"><span data-offset-key="der5t-0-0"><br />
+“Long Note One&#8221; Kevin MacLeod (</span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="http://incompetech.com/"><span data-offset-key="der5t-1-0">i</span><span data-offset-key="der5t-1-1">n</span><span data-offset-key="der5t-1-2">c</span><span data-offset-key="der5t-1-3">o</span><span data-offset-key="der5t-1-4">m</span><span data-offset-key="der5t-1-5">p</span><span data-offset-key="der5t-1-6">e</span><span data-offset-key="der5t-1-7">t</span><span data-offset-key="der5t-1-8">e</span><span data-offset-key="der5t-1-9">c</span><span data-offset-key="der5t-1-10">h</span><span data-offset-key="der5t-1-11">.</span><span data-offset-key="der5t-1-12">c</span><span data-offset-key="der5t-1-13">o</span><span data-offset-key="der5t-1-14">m</span></a><span data-offset-key="der5t-2-0">)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+</span><a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="https://creativecommons.org/licenses/by/3.0/"><span data-offset-key="der5t-3-0">h</span><span data-offset-key="der5t-3-1">t</span><span data-offset-key="der5t-3-2">t</span><span data-offset-key="der5t-3-3">p</span><span data-offset-key="der5t-3-4">:</span><span data-offset-key="der5t-3-5">/</span><span data-offset-key="der5t-3-6">/</span><span data-offset-key="der5t-3-7">c</span><span data-offset-key="der5t-3-8">r</span><span data-offset-key="der5t-3-9">e</span><span data-offset-key="der5t-3-10">a</span><span data-offset-key="der5t-3-11">t</span><span data-offset-key="der5t-3-12">i</span><span data-offset-key="der5t-3-13">v</span><span data-offset-key="der5t-3-14">e</span><span data-offset-key="der5t-3-15">c</span><span data-offset-key="der5t-3-16">o</span><span data-offset-key="der5t-3-17">m</span><span data-offset-key="der5t-3-18">m</span><span data-offset-key="der5t-3-19">o</span><span data-offset-key="der5t-3-20">n</span><span data-offset-key="der5t-3-21">s</span><span data-offset-key="der5t-3-22">.</span><span data-offset-key="der5t-3-23">o</span><span data-offset-key="der5t-3-24">r</span><span data-offset-key="der5t-3-25">g</span><span data-offset-key="der5t-3-26">/</span><span data-offset-key="der5t-3-27">l</span><span data-offset-key="der5t-3-28">i</span><span data-offset-key="der5t-3-29">c</span><span data-offset-key="der5t-3-30">e</span><span data-offset-key="der5t-3-31">n</span><span data-offset-key="der5t-3-32">s</span><span data-offset-key="der5t-3-33">e</span><span data-offset-key="der5t-3-34">s</span><span data-offset-key="der5t-3-35">/</span><span data-offset-key="der5t-3-36">b</span><span data-offset-key="der5t-3-37">y</span><span data-offset-key="der5t-3-38">/</span><span data-offset-key="der5t-3-39">3</span><span data-offset-key="der5t-3-40">.</span><span data-offset-key="der5t-3-41">0</span><span data-offset-key="der5t-3-42">/</span></a></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="48hqr-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="48hqr-0-0"><span data-offset-key="48hqr-0-0"><br />
+Additional Music by Rafael Krux</span></div>
+</div>
+<div class="_2TO-components-SimpleRichTextEditor--paragraphElement" data-block="true" data-editor="8u8lp" data-offset-key="2ag34-0-0">
+<div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="2ag34-0-0"><span data-offset-key="2ag34-0-0"><br />
+<em><span style="text-decoration: underline;">S</span></em></span><em><span style="text-decoration: underline;">ound Effects</span></em><span data-offset-key="2ag34-0-13"><em><span style="text-decoration: underline;">:</span></em><br />
+</span> <a class="_4X_-components-SimpleRichTextEditor-components-LinkSpan--linkSpan" href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt"><span data-offset-key="2ag34-1-0">s</span><span data-offset-key="2ag34-1-1">t</span><span data-offset-key="2ag34-1-2">o</span><span data-offset-key="2ag34-1-3">r</span><span data-offset-key="2ag34-1-4">e</span><span data-offset-key="2ag34-1-5">.</span><span data-offset-key="2ag34-1-6">s</span><span data-offset-key="2ag34-1-7">y</span><span data-offset-key="2ag34-1-8">r</span><span data-offset-key="2ag34-1-9">i</span><span data-offset-key="2ag34-1-10">n</span><span data-offset-key="2ag34-1-11">s</span><span data-offset-key="2ag34-1-12">c</span><span data-offset-key="2ag34-1-13">a</span><span data-offset-key="2ag34-1-14">p</span><span data-offset-key="2ag34-1-15">e</span><span data-offset-key="2ag34-1-16">.</span><span data-offset-key="2ag34-1-17">c</span><span data-offset-key="2ag34-1-18">o</span><span data-offset-key="2ag34-1-19">m</span><span data-offset-key="2ag34-1-20">/</span><span data-offset-key="2ag34-1-21">w</span><span data-offset-key="2ag34-1-22">h</span><span data-offset-key="2ag34-1-23">a</span><span data-offset-key="2ag34-1-24">t</span><span data-offset-key="2ag34-1-25">&#8211;</span><span data-offset-key="2ag34-1-26">i</span><span data-offset-key="2ag34-1-27">s</span><span data-offset-key="2ag34-1-28">&#8211;</span><span data-offset-key="2ag34-1-29">s</span><span data-offset-key="2ag34-1-30">y</span><span data-offset-key="2ag34-1-31">r</span><span data-offset-key="2ag34-1-32">i</span><span data-offset-key="2ag34-1-33">n</span><span data-offset-key="2ag34-1-34">s</span><span data-offset-key="2ag34-1-35">c</span><span data-offset-key="2ag34-1-36">a</span><span data-offset-key="2ag34-1-37">p</span><span data-offset-key="2ag34-1-38">e</span><span data-offset-key="2ag34-1-39">/</span><span data-offset-key="2ag34-1-40">?</span><span data-offset-key="2ag34-1-41">a</span><span data-offset-key="2ag34-1-42">t</span><span data-offset-key="2ag34-1-43">t</span></a></div>
+</div>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode005.mp3" length="65455504" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>5</itunes:episode>
+		<podcast:episode>5</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:07:42</itunes:duration>
+	</item>
+	<item>
+		<title>They Do It In Metal Gear &#8211; S1:E4</title>
+		<link>https://pedrogalicia.com/podcast/2018/10/19/world-walkers-cog-season-one-episode-four-they-do-it-in-metal-gear/</link>
+		<pubDate>Fri, 19 Oct 2018 02:11:06 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=641</guid>
+		<description><![CDATA[<p>The group continues it’s trek through the Echo Forest, battling goblins and toppling bugbears, all the while searching for their employer Haversack’s former master. We join the group now as Nova and Lucca, two Forged who know a thing or two about enslavement, debate the ethics of working with bugbears with Sabin, their halfling gunslinger companion.</p>
+<p><u><em>Music:</em></u></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Drums of the Deep&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Long Note One&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><u><em>Sound Effects:<br />
+</em></u><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode004.mp3" length="66115799" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>4</itunes:episode>
+		<podcast:episode>4</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:08:52</itunes:duration>
+	</item>
+	<item>
+		<title>Cautious Goofy &#8211; S1:E3</title>
+		<link>https://pedrogalicia.com/podcast/2018/10/12/world-walkers-cog-season-one-episode-three-cautious-goofy/</link>
+		<pubDate>Fri, 12 Oct 2018 00:40:36 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=632</guid>
+		<description><![CDATA[<p><span style="font-weight: 400;">Previously, the group accepted a job from a goblin named Haversack to kill his former master, who dwelled deep in the Echo Forest. In order to survive the insanity-inducing ringing inside, the group obtained the services of a ritualist named Lexter, seemed performed the necessary rituals on Lucca Lu and Nova in exchange for a favor at a later date. Now, the group is ready to sneak into the forest and begin the hunt&#8230;</span></p>
+<p><span style="font-weight: 400;">If you love what you hear and want to listen to the next episode, go for it! I uploaded the first three episodes right away, so binge! Please let me know what you think by either hitting me up on Twitter @worldwalkerspod or leaving us a review on iTunes!</span></p>
+<p><span style="font-weight: 400;">Let’s listen to World Walkers: Cog &#8211; Episode Three &#8211; Cautious Goofy</span></p>
+<p><i><span style="font-weight: 400;">Music:</span></i></p>
+<p><span style="font-weight: 400;">“Evil Incoming&#8221; Kevin MacLeod (incompetech.com)<br />
+</span><span style="font-weight: 400;">Licensed under Creative Commons: By Attribution 3.0 License<br />
+</span><a href="http://creativecommons.org/licenses/by/3.0/"><span style="font-weight: 400;">http://creativecommons.org/licenses/by/3.0/</span></a></p>
+<p><span style="font-weight: 400;">“Ever Mindful&#8221; Kevin MacLeod (incompetech.com)<br />
+</span><span style="font-weight: 400;">Licensed under Creative Commons: By Attribution 3.0 License<br />
+</span><a href="http://creativecommons.org/licenses/by/3.0/"><span style="font-weight: 400;">http://creativecommons.org/licenses/by/3.0/</span></a></p>
+<p><span style="font-weight: 400;">“Soaring&#8221; Kevin MacLeod (incompetech.com)<br />
+</span><span style="font-weight: 400;">Licensed under Creative Commons: By Attribution 3.0 License<br />
+</span><a href="http://creativecommons.org/licenses/by/3.0/"><span style="font-weight: 400;">http://creativecommons.org/licenses/by/3.0/</span></a></p>
+<p><i><span style="font-weight: 400;">Sound Effects:<br />
+</span></i><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt"><span style="font-weight: 400;">store.syrinscape.com/what-is-syrinscape/?att</span></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode003.mp3" length="31149515" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>3</itunes:episode>
+		<podcast:episode>3</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>32:27</itunes:duration>
+	</item>
+	<item>
+		<title>Secrets Are Like Guns &#8211; S1:E2</title>
+		<link>https://pedrogalicia.com/podcast/2018/10/12/world-walkers-cog-season-one-episode-two-secrets-are-like-guns/</link>
+		<pubDate>Fri, 12 Oct 2018 00:35:13 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=627</guid>
+		<description><![CDATA[<p>Last we left our friends they had just accepted a job from a goblin named Haversack, who was willing to pay the group to kill his ex-master deep in the Echo Forest. The problem is, the Echo Forest is named as such for it’s piercing ringing, which drives anyone who stays within it mad. The group’s Forged needed a way to protect their hearing, and so they turned to a local ritualist named Lexter to help them through arcane means. He was willing to do so, in exchange for a favor at a later date.</p>
+<p>We return now as the group finds a way to kill time while Lexter works his ways&#8230;</p>
+<p><span style="text-decoration: underline;"><em>Music:</em></span><br />
+“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Thinking Music&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Ever Mindful&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Soaring&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p><i><span style="font-weight: 400;"><span style="text-decoration: underline;">Sound Effects:</span><br />
+</span></i><a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt"><span style="font-weight: 400;">store.syrinscape.com/what-is-syrinscape/?att</span></a></p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode002.mp3" length="46767833" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>2</itunes:episode>
+		<podcast:episode>2</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>48:43</itunes:duration>
+	</item>
+	<item>
+		<title>Fun In Falas &#8211; S1:E1</title>
+		<link>https://pedrogalicia.com/podcast/2018/10/12/world-walkers-cog-season-one-episode-one-fun-in-falas/</link>
+		<pubDate>Fri, 12 Oct 2018 00:09:00 +0000</pubDate>
+		<guid isPermaLink="false">http://worldwalkerspodcast.com/?p=624</guid>
+		<description><![CDATA[<p>What’s up everyone? I’m Pedro, the DM and Creator of the World Walkers Universe, a homebrew series of worlds that I’ve been telling stories in for over twenty years. In my other podcast, World Walkers, a group of adventurers are traveling between worlds, looking for the shattered remains of a dream island that can drive back the nightmares that threaten to tear existence apart. One of the worlds they visited was the Steam-Powered World of Cog, where Airships travel the skies, Dwarven Brotherhoods control the secrets of technological progress, druids plot to rip society back to a more primitive, simpler time, and far to the east, past the shattered land masses frozen in dead magic, secrets of the arcane lie protected by a kingdom desperate to rebuild itself from a war lost by sabotage.</p>
+<p>This is the setting for World Walkers: Cog, a weekly podcast that follows a group of adventurers as they explore the world of Cog. Let’s let the group introduce themselves.</p>
+<p>New episodes of World Walkers: Cog are available every Thursday. You can also look for World Walkers wherever you enjoy listening to podcasts if you want to find out what the other podcast is like.</p>
+<p>If you love what you hear and want to listen to the next episode, go for it! I uploaded the first three episodes right away, so binge! Please let me know what you think by either hitting me up on Twitter @worldwalkerspod or leaving us a review on iTunes!</p>
+<p>Alright, so let’s get into it. Here’s the first episode of World Walkers: Cog.</p>
+<p><span style="text-decoration: underline;"><em>Music:</em></span><br />
+“Hidden Agenda&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Industrial Revolution&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Reign&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>“Evil Incoming&#8221; Kevin MacLeod (<a href="http://incompetech.com/" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0 License<br />
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" rel="nofollow noopener"><u>http://creativecommons.org/licenses/by/3.0/</u></a></p>
+<p>Additional Music from Dogsounds, Jason Shaw, and Rafael Krux.</p>
+<p><u><em>Sound</em></u> <u><em>Effects</em></u><u><em>:</em></u><br />
+<a href="https://exit.sc/?url=https%3A%2F%2Fstore.syrinscape.com%2Fwhat-is-syrinscape%2F%3Fatt" target="_blank" rel="nofollow noopener"><u>store.syrinscape.com/what-is-syrinscape/?att</u></a></p>
+<p>&#160;</p>]]></description>
+		<enclosure url="https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode001.mp3" length="64726772" type="audio/mpeg" />
+		<itunes:author>Pedro Galicia</itunes:author>
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episode>1</itunes:episode>
+		<podcast:episode>1</podcast:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:07:25</itunes:duration>
+	</item>
+</channel>
+</rss>
