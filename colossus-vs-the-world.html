@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colossus Vs The World — Pedro Galicia</title>
+  <meta name="description" content="Pedro's brother Frank takes on the role of Colossus while simultaneously knowing nothing about Pietro or the Marvel Universe at large. A six-episode j">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-deep:   #1a3a2a;
+      --green-mid:    #2d6a4f;
+      --green-bright: #52b788;
+      --green-pale:   #b7e4c7;
+      --green-mist:   #e8f5ee;
+      --gold:         #d4a843;
+      --ink:          #1a1a1a;
+      --parchment:    #faf7f0;
+      --white:        #ffffff;
+      --shadow:       rgba(26,58,42,0.15);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--parchment);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(26,58,42,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(82,183,136,0.2);
+    }
+    .nav-logo {
+      font-family: 'Cinzel', serif; font-weight: 900; font-size: 1.05rem;
+      color: var(--green-bright); text-decoration: none; letter-spacing: 0.05em;
+    }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      color: var(--green-pale); text-decoration: none;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .show-hero {
+      padding: 7rem 2rem 4rem;
+      background: var(--green-deep);
+      display: flex; align-items: center; gap: 3rem;
+      position: relative; overflow: hidden;
+    }
+    .show-hero::before {
+      content: ''; position: absolute;
+      width: 600px; height: 600px; border-radius: 50%;
+      border: 1px solid rgba(82,183,136,0.08);
+      top: 50%; right: -100px; transform: translateY(-50%);
+    }
+    .show-logo {
+      width: 160px; height: 160px; border-radius: 12px;
+      object-fit: cover; flex-shrink: 0;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .show-hero-text { max-width: 700px; }
+    .show-eyebrow {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--green-bright); margin-bottom: 0.6rem;
+    }
+    .show-title {
+      font-family: 'Cinzel', serif; font-weight: 900;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      color: var(--white); line-height: 1.1; margin-bottom: 1rem;
+    }
+    .show-desc {
+      font-size: 1.15rem; font-weight: 300; color: var(--green-pale);
+      line-height: 1.65; margin-bottom: 1.5rem;
+    }
+    .show-meta {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(183,228,199,0.55); margin-bottom: 1.5rem;
+    }
+    .show-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+      padding: 0.7rem 1.6rem; border-radius: 3px; transition: all 0.2s; display: inline-block;
+    }
+    .btn-primary { background: var(--green-bright); color: var(--green-deep); }
+    .btn-primary:hover { background: var(--gold); transform: translateY(-2px); }
+    .btn-outline { border: 1px solid rgba(82,183,136,0.4); color: var(--green-pale); }
+    .btn-outline:hover { border-color: var(--green-bright); color: var(--green-bright); }
+    .episodes-wrap { max-width: 900px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+    .episodes-header {
+      display: flex; align-items: baseline; justify-content: space-between;
+      margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;
+    }
+    .episodes-header h2 {
+      font-family: 'Cinzel', serif; font-size: 1.6rem; font-weight: 600;
+      color: var(--green-deep);
+    }
+    .season-tabs {
+      display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;
+    }
+    .season-tab {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer;
+      padding: 0.45rem 1rem; border-radius: 3px; border: 1px solid var(--green-pale);
+      color: var(--green-mid); background: transparent; transition: all 0.2s;
+    }
+    .season-tab.active, .season-tab:hover {
+      background: var(--green-mid); color: var(--white); border-color: var(--green-mid);
+    }
+    .episode-list { display: flex; flex-direction: column; gap: 0; }
+    .episode {
+      border-bottom: 1px solid rgba(45,106,79,0.12);
+      padding: 1.25rem 0;
+    }
+    .episode:first-child { border-top: 1px solid rgba(45,106,79,0.12); }
+    .episode-row {
+      display: grid; grid-template-columns: 2.5rem 1fr auto;
+      gap: 1rem; align-items: center;
+    }
+    .ep-num {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 700;
+      color: var(--green-bright); text-align: center;
+    }
+    .ep-info {}
+    .ep-title {
+      font-family: 'Crimson Pro', serif; font-size: 1.1rem; font-weight: 600;
+      color: var(--green-deep); margin-bottom: 0.2rem; line-height: 1.3;
+    }
+    .ep-meta {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem;
+      color: #888; letter-spacing: 0.05em;
+    }
+    .ep-desc {
+      font-size: 0.95rem; color: #555; line-height: 1.55;
+      margin-top: 0.6rem; display: none;
+      grid-column: 2 / -1;
+    }
+    .ep-desc.open { display: block; }
+    .ep-actions { display: flex; gap: 0.5rem; align-items: center; flex-shrink: 0; }
+    .play-btn {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: var(--green-mid); border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s; flex-shrink: 0;
+    }
+    .play-btn:hover { background: var(--green-bright); transform: scale(1.08); }
+    .play-btn svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .expand-btn {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--green-mid);
+      background: none; border: none; cursor: pointer; padding: 0.3rem 0;
+      transition: color 0.2s; white-space: nowrap;
+    }
+    .expand-btn:hover { color: var(--green-bright); }
+    /* Audio player bar */
+    .player-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+      background: var(--green-deep); border-top: 1px solid rgba(82,183,136,0.25);
+      padding: 0.75rem 2rem; display: none; align-items: center; gap: 1.5rem;
+    }
+    .player-bar.active { display: flex; }
+    .player-title {
+      font-family: 'Cinzel', serif; font-size: 0.85rem; color: var(--white);
+      flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .player-controls { display: flex; align-items: center; gap: 0.75rem; }
+    audio { height: 32px; flex: 1; min-width: 200px; max-width: 400px; accent-color: var(--green-bright); }
+    .player-close {
+      background: none; border: none; color: var(--green-pale);
+      font-size: 1.2rem; cursor: pointer; padding: 0.25rem; line-height: 1;
+    }
+    .player-close:hover { color: var(--white); }
+    /* back link */
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--green-bright); text-decoration: none; margin-bottom: 1.5rem;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--gold); }
+    footer {
+      background: var(--green-deep); padding: 2.5rem 2rem; text-align: center;
+    }
+    .footer-name {
+      font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--white); margin-bottom: 0.4rem;
+    }
+    .footer-copy { font-size: 0.8rem; color: rgba(183,228,199,0.35); margin-top: 0.5rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin: 0.75rem 0; }
+    .footer-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--green-bright); text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    @media (max-width: 700px) {
+      nav { padding: 0.75rem 1rem; }
+      .nav-links { gap: 0.75rem; }
+      .show-hero { flex-direction: column; padding: 6rem 1.25rem 3rem; gap: 1.5rem; }
+      .show-logo { width: 120px; height: 120px; }
+      .episode-row { grid-template-columns: 2rem 1fr auto; gap: 0.75rem; }
+      audio { min-width: 120px; }
+      .player-bar { padding: 0.75rem 1rem; gap: 0.75rem; }
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">Pedro Galicia</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#podcasts">Podcasts</a></li>
+    <li><a href="../index.html#comics">Comics</a></li>
+  </ul>
+</nav>
+
+<div class="show-hero">
+  <img src="../assets/ww-colossus-logo.jpg" alt="Colossus Vs The World" class="show-logo" loading="lazy">
+  <div class="show-hero-text">
+    <p class="show-eyebrow">A Pedro & Frank Production</p>
+    <h1 class="show-title">Colossus Vs The World</h1>
+    <p class="show-desc">Pedro's brother Frank takes on the role of Colossus while simultaneously knowing nothing about Pietro or the Marvel Universe at large. A six-episode joy made by two brothers who loved each other very much.</p>
+    <p class="show-meta">6 Episodes &nbsp;·&nbsp; July 2020</p>
+    <div class="show-actions">
+      <a href="https://pedrogalicia.com/podcast/feed-colossus.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="episodes-wrap">
+  <a href="../index.html#podcasts" class="back-link">← All Podcasts</a>
+  <div class="episodes-header">
+    <h2>All Episodes</h2>
+  </div>
+  
+  <div class="episode-list" id="episodeList"></div>
+</div>
+
+<div class="player-bar" id="playerBar">
+  <div class="player-title" id="playerTitle">Now Playing</div>
+  <div class="player-controls">
+    <audio id="audioPlayer" controls preload="none"></audio>
+  </div>
+  <button class="player-close" id="playerClose" title="Close">✕</button>
+</div>
+
+<footer>
+  <div class="footer-name">Pedro Galicia</div>
+  <div class="footer-links">
+    <a href="world-walkers.html">World Walkers</a>
+    <a href="world-walkers-cog.html">Cog</a>
+    <a href="the-other-ones.html">The Other Ones</a>
+    <a href="colossus-vs-the-world.html">Colossus</a>
+    <a href="../comics/rule-zero.html">Rule Zero</a>
+    <a href="../comics/mobs.html">MOBS</a>
+  </div>
+  <div class="footer-copy">© Pedro Galicia. Maintained with love by his family.</div>
+</footer>
+
+<script>
+const EPISODES = [{"title": "Episode One: Enter The Nipple Mouth", "date": "Wed, 29 Jul 2020", "duration": "32:55", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode001.mp3", "season": "1", "episode": "1", "description": "Join us as Frank takes on the role of Colossus while simultaneously knowing nothing about neither Pietro or the Marvel Universe at large. Sound Effects by Syrinscape https://syrinscape.com/"}, {"title": "Episode Two: A Song Of Furry And Ice", "date": "Sun, 26 Jul 2020", "duration": "22:34", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode002.mp3", "season": "1", "episode": "2", "description": "Colossus has made a decision that will weigh on his conscious for the r- Let's stop right there. Frank has no conscious. Need proof? Listen to Episode Two. Music and Sounds: \"Bamf.wav\" by themfish https://freesound.org/people/themfish/\u2026"}, {"title": "Episode Three: I\u2019m The Changer", "date": "Sun, 26 Jul 2020", "duration": "25:46", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode003.mp3", "season": "1", "episode": "3", "description": "After having a Frank conversation with Nightcrawler and Iceman, Colossus now turns his attention towards an exit strategy\u2026 Note: Special thanks to Wesley for this amazing art! Music and Sounds: \"Steel and Seething\" Kevin MacLeod ( incompetech.com ) Licensed under Creative\u2026"}, {"title": "Episode Four: The Kitchen", "date": "Sun, 26 Jul 2020", "duration": "19:13", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode004.mp3", "season": "1", "episode": "4", "description": "Colossus has his sights set on one person. Who is that person? What the hell could he possibly have planned after murdering his own team? Does he, in fact, have a plan? I'm not sure any of these questions are answered in this episode, but what I do know is that Colossus is ready\u2026"}, {"title": "Episode Five: He\u2019s Gonna Have To Drink Me", "date": "Sun, 26 Jul 2020", "duration": "21:42", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-Episode005.mp3", "season": "1", "episode": "5", "description": "Ever since Colossus ripped out of the carcasses and the walls of the Xavier Institute, he's had a plan. Gain an audience with the man known as The Kingpin, Wilson Fisk. But why? What does Fisk have that Colossus so desperately needs? What could Kingpin have that would be worth\u2026"}, {"title": "Episode Six: The Bear From The Shining", "date": "Sun, 26 Jul 2020", "duration": "34:16", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/colossus-vs-the-world/CvsTW-EpisodeFinal.mp3", "season": "1", "episode": "6", "description": "What do The White Queen and Storm have in store for Colossus? How far can he take his mission? \u2026 What is his mission? Find out in this, the final episode of Colossus Vs The World! I want to thank everyone for being patient. I know there was a pretty big gap between the last\u2026"}];
+let currentEpisodes = EPISODES;
+
+function renderEpisodes(eps) {
+  const list = document.getElementById('episodeList');
+  list.innerHTML = eps.map((ep, i) => {
+    const num = ep.episode || (eps.length - i);
+    const seasonLabel = ep.season ? 'S' + ep.season + ' · ' : '';
+    const hasDesc = ep.description && ep.description.length > 0;
+    const safeTitle = ep.title.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const safeDesc = hasDesc ? ep.description.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
+    return '<div class="episode" data-season="' + ep.season + '">' +
+      '<div class="episode-row">' +
+        '<span class="ep-num">' + num + '</span>' +
+        '<div class="ep-info">' +
+          '<div class="ep-title">' + safeTitle + '</div>' +
+          '<div class="ep-meta">' + seasonLabel + ep.date + (ep.duration ? ' · ' + ep.duration : '') + '</div>' +
+          (hasDesc ? '<div class="ep-desc" id="desc-' + i + '">' + safeDesc + '</div>' : '') +
+        '</div>' +
+        '<div class="ep-actions">' +
+          (hasDesc ? '<button class="expand-btn" data-desc="desc-' + i + '">More</button>' : '') +
+          '<button class="play-btn" data-index="' + i + '" title="Play">' +
+            '<svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>' +
+          '</button>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+
+  list.querySelectorAll('.play-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var ep = currentEpisodes[parseInt(btn.dataset.index)];
+      playEp(ep.audio_url, ep.title);
+    });
+  });
+  list.querySelectorAll('.expand-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var d = document.getElementById(btn.dataset.desc);
+      d.classList.toggle('open');
+      btn.textContent = d.classList.contains('open') ? 'Less' : 'More';
+    });
+  });
+}
+
+function playEp(url, title) {
+  var bar = document.getElementById('playerBar');
+  var audio = document.getElementById('audioPlayer');
+  var titleEl = document.getElementById('playerTitle');
+  audio.src = url;
+  titleEl.textContent = title;
+  bar.classList.add('active');
+  audio.play();
+  document.body.style.paddingBottom = '80px';
+}
+
+function closePlayer() {
+  var bar = document.getElementById('playerBar');
+  var audio = document.getElementById('audioPlayer');
+  audio.pause();
+  audio.src = '';
+  bar.classList.remove('active');
+  document.body.style.paddingBottom = '';
+}
+
+document.getElementById('playerClose').addEventListener('click', closePlayer);
+
+
+renderEpisodes(EPISODES);
+</script>
+</body>
+</html>

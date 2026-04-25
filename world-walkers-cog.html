@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Walkers: Cog — Pedro Galicia</title>
+  <meta name="description" content="Set in the Steam-Powered World of Cog — a planet of airships, gunslingers, ex-slave wargolems, and a shattered kingdom of magic.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-deep:   #1a3a2a;
+      --green-mid:    #2d6a4f;
+      --green-bright: #52b788;
+      --green-pale:   #b7e4c7;
+      --green-mist:   #e8f5ee;
+      --gold:         #d4a843;
+      --ink:          #1a1a1a;
+      --parchment:    #faf7f0;
+      --white:        #ffffff;
+      --shadow:       rgba(26,58,42,0.15);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--parchment);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(26,58,42,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(82,183,136,0.2);
+    }
+    .nav-logo {
+      font-family: 'Cinzel', serif; font-weight: 900; font-size: 1.05rem;
+      color: var(--green-bright); text-decoration: none; letter-spacing: 0.05em;
+    }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      color: var(--green-pale); text-decoration: none;
+      letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .show-hero {
+      padding: 7rem 2rem 4rem;
+      background: var(--green-deep);
+      display: flex; align-items: center; gap: 3rem;
+      position: relative; overflow: hidden;
+    }
+    .show-hero::before {
+      content: ''; position: absolute;
+      width: 600px; height: 600px; border-radius: 50%;
+      border: 1px solid rgba(82,183,136,0.08);
+      top: 50%; right: -100px; transform: translateY(-50%);
+    }
+    .show-logo {
+      width: 160px; height: 160px; border-radius: 12px;
+      object-fit: cover; flex-shrink: 0;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .show-hero-text { max-width: 700px; }
+    .show-eyebrow {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--green-bright); margin-bottom: 0.6rem;
+    }
+    .show-title {
+      font-family: 'Cinzel', serif; font-weight: 900;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      color: var(--white); line-height: 1.1; margin-bottom: 1rem;
+    }
+    .show-desc {
+      font-size: 1.15rem; font-weight: 300; color: var(--green-pale);
+      line-height: 1.65; margin-bottom: 1.5rem;
+    }
+    .show-meta {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(183,228,199,0.55); margin-bottom: 1.5rem;
+    }
+    .show-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+      padding: 0.7rem 1.6rem; border-radius: 3px; transition: all 0.2s; display: inline-block;
+    }
+    .btn-primary { background: var(--green-bright); color: var(--green-deep); }
+    .btn-primary:hover { background: var(--gold); transform: translateY(-2px); }
+    .btn-outline { border: 1px solid rgba(82,183,136,0.4); color: var(--green-pale); }
+    .btn-outline:hover { border-color: var(--green-bright); color: var(--green-bright); }
+    .episodes-wrap { max-width: 900px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+    .episodes-header {
+      display: flex; align-items: baseline; justify-content: space-between;
+      margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;
+    }
+    .episodes-header h2 {
+      font-family: 'Cinzel', serif; font-size: 1.6rem; font-weight: 600;
+      color: var(--green-deep);
+    }
+    .season-tabs {
+      display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;
+    }
+    .season-tab {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer;
+      padding: 0.45rem 1rem; border-radius: 3px; border: 1px solid var(--green-pale);
+      color: var(--green-mid); background: transparent; transition: all 0.2s;
+    }
+    .season-tab.active, .season-tab:hover {
+      background: var(--green-mid); color: var(--white); border-color: var(--green-mid);
+    }
+    .episode-list { display: flex; flex-direction: column; gap: 0; }
+    .episode {
+      border-bottom: 1px solid rgba(45,106,79,0.12);
+      padding: 1.25rem 0;
+    }
+    .episode:first-child { border-top: 1px solid rgba(45,106,79,0.12); }
+    .episode-row {
+      display: grid; grid-template-columns: 2.5rem 1fr auto;
+      gap: 1rem; align-items: center;
+    }
+    .ep-num {
+      font-family: 'Nunito', sans-serif; font-size: 0.8rem; font-weight: 700;
+      color: var(--green-bright); text-align: center;
+    }
+    .ep-info {}
+    .ep-title {
+      font-family: 'Crimson Pro', serif; font-size: 1.1rem; font-weight: 600;
+      color: var(--green-deep); margin-bottom: 0.2rem; line-height: 1.3;
+    }
+    .ep-meta {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem;
+      color: #888; letter-spacing: 0.05em;
+    }
+    .ep-desc {
+      font-size: 0.95rem; color: #555; line-height: 1.55;
+      margin-top: 0.6rem; display: none;
+      grid-column: 2 / -1;
+    }
+    .ep-desc.open { display: block; }
+    .ep-actions { display: flex; gap: 0.5rem; align-items: center; flex-shrink: 0; }
+    .play-btn {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: var(--green-mid); border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s; flex-shrink: 0;
+    }
+    .play-btn:hover { background: var(--green-bright); transform: scale(1.08); }
+    .play-btn svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .expand-btn {
+      font-family: 'Nunito', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--green-mid);
+      background: none; border: none; cursor: pointer; padding: 0.3rem 0;
+      transition: color 0.2s; white-space: nowrap;
+    }
+    .expand-btn:hover { color: var(--green-bright); }
+    /* Audio player bar */
+    .player-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+      background: var(--green-deep); border-top: 1px solid rgba(82,183,136,0.25);
+      padding: 0.75rem 2rem; display: none; align-items: center; gap: 1.5rem;
+    }
+    .player-bar.active { display: flex; }
+    .player-title {
+      font-family: 'Cinzel', serif; font-size: 0.85rem; color: var(--white);
+      flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .player-controls { display: flex; align-items: center; gap: 0.75rem; }
+    audio { height: 32px; flex: 1; min-width: 200px; max-width: 400px; accent-color: var(--green-bright); }
+    .player-close {
+      background: none; border: none; color: var(--green-pale);
+      font-size: 1.2rem; cursor: pointer; padding: 0.25rem; line-height: 1;
+    }
+    .player-close:hover { color: var(--white); }
+    /* back link */
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--green-bright); text-decoration: none; margin-bottom: 1.5rem;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--gold); }
+    footer {
+      background: var(--green-deep); padding: 2.5rem 2rem; text-align: center;
+    }
+    .footer-name {
+      font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--white); margin-bottom: 0.4rem;
+    }
+    .footer-copy { font-size: 0.8rem; color: rgba(183,228,199,0.35); margin-top: 0.5rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; margin: 0.75rem 0; }
+    .footer-links a {
+      font-family: 'Nunito', sans-serif; font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--green-bright); text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    @media (max-width: 700px) {
+      nav { padding: 0.75rem 1rem; }
+      .nav-links { gap: 0.75rem; }
+      .show-hero { flex-direction: column; padding: 6rem 1.25rem 3rem; gap: 1.5rem; }
+      .show-logo { width: 120px; height: 120px; }
+      .episode-row { grid-template-columns: 2rem 1fr auto; gap: 0.75rem; }
+      audio { min-width: 120px; }
+      .player-bar { padding: 0.75rem 1rem; gap: 0.75rem; }
+    }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">Pedro Galicia</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#podcasts">Podcasts</a></li>
+    <li><a href="../index.html#comics">Comics</a></li>
+  </ul>
+</nav>
+
+<div class="show-hero">
+  <img src="../assets/ww-cog-logo.png" alt="World Walkers: Cog" class="show-logo" loading="lazy">
+  <div class="show-hero-text">
+    <p class="show-eyebrow">The World Walkers Universe · Spinoff</p>
+    <h1 class="show-title">World Walkers: Cog</h1>
+    <p class="show-desc">Set in the Steam-Powered World of Cog — a planet of airships, gunslingers, ex-slave wargolems, and a shattered kingdom of magic.</p>
+    <p class="show-meta">38 Episodes &nbsp;·&nbsp; October 2018 – July 2020</p>
+    <div class="show-actions">
+      <a href="https://pedrogalicia.com/podcast/feed-cog.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="episodes-wrap">
+  <a href="../index.html#podcasts" class="back-link">← All Podcasts</a>
+  <div class="episodes-header">
+    <h2>All Episodes</h2>
+  </div>
+  
+  <div class="episode-list" id="episodeList"></div>
+</div>
+
+<div class="player-bar" id="playerBar">
+  <div class="player-title" id="playerTitle">Now Playing</div>
+  <div class="player-controls">
+    <audio id="audioPlayer" controls preload="none"></audio>
+  </div>
+  <button class="player-close" id="playerClose" title="Close">✕</button>
+</div>
+
+<footer>
+  <div class="footer-name">Pedro Galicia</div>
+  <div class="footer-links">
+    <a href="world-walkers.html">World Walkers</a>
+    <a href="world-walkers-cog.html">Cog</a>
+    <a href="the-other-ones.html">The Other Ones</a>
+    <a href="colossus-vs-the-world.html">Colossus</a>
+    <a href="../comics/rule-zero.html">Rule Zero</a>
+    <a href="../comics/mobs.html">MOBS</a>
+  </div>
+  <div class="footer-copy">© Pedro Galicia. Maintained with love by his family.</div>
+</footer>
+
+<script>
+const EPISODES = [{"title": "Fun In Falas \u2013 S1:E1", "date": "Fri, 12 Oct 2018", "duration": "1:07:25", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode001.mp3", "season": "1", "episode": "1", "description": "What\u2019s up everyone? I\u2019m Pedro, the DM and Creator of the World Walkers Universe, a homebrew series of worlds that I\u2019ve been telling stories in for over twenty years. In my other podcast, World Walkers, a group of adventurers are traveling between worlds, looking for the\u2026"}, {"title": "Secrets Are Like Guns \u2013 S1:E2", "date": "Fri, 12 Oct 2018", "duration": "48:43", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode002.mp3", "season": "1", "episode": "2", "description": "Last we left our friends they had just accepted a job from a goblin named Haversack, who was willing to pay the group to kill his ex-master deep in the Echo Forest. The problem is, the Echo Forest is named as such for it\u2019s piercing ringing, which drives anyone who stays within\u2026"}, {"title": "Cautious Goofy \u2013 S1:E3", "date": "Fri, 12 Oct 2018", "duration": "32:27", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode003.mp3", "season": "1", "episode": "3", "description": "Previously, the group accepted a job from a goblin named Haversack to kill his former master, who dwelled deep in the Echo Forest. In order to survive the insanity-inducing ringing inside, the group obtained the services of a ritualist named Lexter, seemed performed the\u2026"}, {"title": "They Do It In Metal Gear \u2013 S1:E4", "date": "Fri, 19 Oct 2018", "duration": "1:08:52", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode004.mp3", "season": "1", "episode": "4", "description": "The group continues it\u2019s trek through the Echo Forest, battling goblins and toppling bugbears, all the while searching for their employer Haversack\u2019s former master. We join the group now as Nova and Lucca, two Forged who know a thing or two about enslavement, debate the ethics\u2026"}, {"title": "Whoa, Black Betty \u2013 S1:E5", "date": "Fri, 26 Oct 2018", "duration": "1:07:42", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode005.mp3", "season": "1", "episode": "5", "description": "Darvin, Lucca, Nova and Sabin have learned that the Bugbears of the Echo Forest scatter pockets of powerful items all over. Now, if the group hopes to invade their stronghold, they\u2019ll have to recover these items and arm themselves. The problem is, they\u2019ve got their employer,\u2026"}, {"title": "Dayturnal \u2013 S1:E6", "date": "Fri, 02 Nov 2018", "duration": "1:12:20", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode006.mp3", "season": "1", "episode": "6", "description": "Our intrepid group of adventurers have been through a lot since they\u2019ve entered the Echo Forest, but their journey has come to its end. It\u2019s time to gather their gear, come up with a plan, and lead an assault on Bo\u2019Ko\u2019Ko, the goblin capital, and home to Haversack\u2019s bugbear\u2026"}, {"title": "Outtakes \u2013 Cog Vs. Yu-Gi-Oh", "date": "Sat, 03 Nov 2018", "duration": "29:30", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-EpisodeCvsYuGiOh.mp3", "season": "1", "episode": "", "description": "Normally, I try to balance out our episodes with a good balance of in-game story and table talk. I want our podcast to feel like you\u2019re at our game, hanging with us, but you\u2019re also in the story, feeling what the players feel when they\u2019re immersed in the world. To keep that\u2026"}, {"title": "The Champagne Room \u2013 S1:E7", "date": "Fri, 09 Nov 2018", "duration": "42:03", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode007.mp3", "season": "1", "episode": "7", "description": "Bo\u2019Ko\u2019Ko has fallen. The Goblins have found freedom. Their bugbear masters have been executed. Now, Haversack and the rest of the group are ready to depart the Echo Forest once and for all. Unless\u2026 they decide to have a look around first\u2026 Music: \u201cEvil Incoming\" Kevin MacLeod (\u2026"}, {"title": "Jiggles\u2019 Day Out -S1:E8", "date": "Sat, 17 Nov 2018", "duration": "45:06", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode008.mp3", "season": "1", "episode": "8", "description": "In the aftermath of Bo\u2019Ko\u2019Ko\u2019s fall, Luca and Nova have mysteriously lost their hearing. With nowhere else to turn, the group is forced to return to Falas and seek the aid of Lexter, the old man who originally gave them control over their sense of hearing in the first place. The\u2026"}, {"title": "The One With All The Lore \u2013 S1:E9", "date": "Fri, 30 Nov 2018", "duration": "43:26", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode009.mp3", "season": "1", "episode": "9", "description": "Lexter has revealed himself as much more than just a local ritualist. Now, the group is about to uncover the secrets of the Forged, and perhaps even more\u2026 Music: \u201cEvil Incoming\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By Attribution 3.0 License\u2026"}, {"title": "String Theory \u2013 S1:E10", "date": "Mon, 10 Dec 2018", "duration": "1:19:19", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode010.mp3", "season": "1", "episode": "10", "description": "The Cog Crew has decided to help Lexter, though the circumstances could have been better. Now all that\u2019s left to do is speak to Haversack about getting paid and secure passage to E\u2019Golium. That means finding an airship that they can trust. That should be pretty straightforward.\u2026"}, {"title": "The Travel City of Cosnick \u2013 S1:E11", "date": "Fri, 14 Dec 2018", "duration": "48:15", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode011.mp3", "season": "1", "episode": "11", "description": "The Cog Crew has boarded the Gambler in hopes of finding Sanctuary, the lost spiritual leader of the Forged. Their journey will take them through the treacherous De'Rango Mountains, though the crew has guaranteed them safe passage. We join the group as they recount the events of\u2026"}, {"title": "Lower City Blues \u2013 S1:E12", "date": "Fri, 21 Dec 2018", "duration": "56:33", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode012.mp3", "season": "1", "episode": "12", "description": "When last we left the Cog Crew, they had set foot in the Travel City of Cosnick. Darvin had managed to stumble upon a secret society, while Sabin came face to face with the Brotherhood of Iron, the dwarves that controlled the technology that powered the city. Tensions rose, and\u2026"}, {"title": "John Wilkes Oops \u2013 S1:E13", "date": "Fri, 28 Dec 2018", "duration": "1:21:49", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode013.mp3", "season": "1", "episode": "13", "description": "The Travel City of Cosnick has proven to be no friend to the Cog Crew. Nova has lost her gold and become stranded in the Lower City. The group made their way below to find their Forged companion, only to encounter hostility at every turn. Can the group find Nova before she burns\u2026"}, {"title": "Cookie Crisps \u2013 S1:E14", "date": "Fri, 04 Jan 2019", "duration": "1:17:15", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode014.mp3", "season": "1", "episode": "14", "description": "The Cog Crew has escaped the Travel City of Cosnick. They now make their way to E\u2019Golium, where they hope to discover Sanctuary, the lost leader of the Forged. All they have to do is deal with stowaways, hankey talk, cookies, and an irrational fear of farms\u2026 Music: \u201cEvil\u2026"}, {"title": "Doomship \u2013 S1:E15", "date": "Sat, 12 Jan 2019", "duration": "58:37", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode015.mp3", "season": "1", "episode": "15", "description": "Dormaneer\u2019s shadow has fallen upon the Cog Crew. Now, the group must face their wrath, all while trying to find a way to free Sanctuary from his prison. What is Dormaneer\u2019s end game? And will the Cog Crew live long enough to see it? Music: \u201cEvil Incoming\" Kevin MacLeod (\u2026"}, {"title": "Now He Can Fly In Hell \u2013 S1:E16", "date": "Fri, 25 Jan 2019", "duration": "1:13:29", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode016.mp3", "season": "1", "episode": "16", "description": "The Cog Crew continues to battle the forces of Dormaneer, all the while hoping that Sanctuary remains undiscovered. The odds are not in their favor, however, and soon they\u2019ll be out of spells, resources, and time\u2026 Music: \u201cEvil Incoming\" Kevin MacLeod ( incompetech.com ) Licensed\u2026"}, {"title": "Side Adventure: The City of Lights", "date": "Sun, 27 Jan 2019", "duration": "1:06:02", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWC-SideAdventure-CityOfLights.mp3", "season": "1", "episode": "17", "description": "The Cog Crew has entrusted Sabin and Haversack to journey into E\u2019Golium, The City of Lights, and come back with transportation, so that they can begin moving Sanctuary, the paralyzed leader of the Forged, back to Falas. A pretty simple in-and-out mission, right? Music: \u201cEvil\u2026"}, {"title": "I\u2019m Dick Van Dyke \u2013 S1:E17", "date": "Tue, 19 Feb 2019", "duration": "53:46", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode017.mp3", "season": "1", "episode": "17", "description": "The Cog Crew have finally found Sanctuary, the spiritual leader of the Forged, on a farm north of the city of E\u2019golium. The group elected Sabin and Haversack to sneak into the city to secure transport large enough to move their newly found cargo, the details of which can be\u2026"}, {"title": "Off The Rails \u2013 S1:E18", "date": "Tue, 26 Feb 2019", "duration": "41:39", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode018.mp3", "season": "1", "episode": "18", "description": "Anyone who\u2019s played in an ongoing campaign has experienced this. You miss a couple of games. You\u2019re dying to get the group back together. And then finally, everyone\u2019s back at the table. And you\u2019d think you\u2019d be ready to break out the dice and jump back into the game. What\u2026"}, {"title": "What Was Your Plan?! \u2013 S1:E19", "date": "Fri, 22 Mar 2019", "duration": "1:07:39", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode019.mp3", "season": "1", "episode": "19", "description": "The Cog Crew has taken position on a path outside E\u2019Golium. Now, they wait for a caravan to make its way to Dormaneer so that they can seize it and move Sanctuary. What they\u2019ll find may not be what they expect, however\u2026 Music: \u201cEvil Incoming\" Kevin MacLeod ( incompetech.com )\u2026"}, {"title": "Opening The Gates To Self Love \u2013 S1:E20", "date": "Fri, 12 Apr 2019", "duration": "1:04:36", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode020.mp3", "season": "1", "episode": "20", "description": "The Cog Crew has been searching for a way to transport the paralyzed leader of the Forged, Sanctuary. Now, the group\u2019s found transportation, coupled with trouble. What will it take to get out of this situation alive? Music: \u201cLost Frontier\" Kevin MacLeod ( incompetech.com )\u2026"}, {"title": "Rise And Shine \u2013 S1:E21", "date": "Fri, 26 Apr 2019", "duration": "50:04", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode021.mp3", "season": "1", "episode": "21", "description": "With one of the Cog Crew down, and help unreliable, can the rest of the group survive what happens next? Music: \u201cLost Frontier\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/ \u201cMarty Gots a\u2026"}, {"title": "Have Some Beer \u2013 S1:E22", "date": "Fri, 03 May 2019", "duration": "30:26", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode022.mp3", "season": "1", "episode": "22", "description": "After (mostly) surviving the aftermath of recent events, the Cog Crew has is finally moving towards their ultimate goal: the retrieval of the spiritual leader of the Forged. All that\u2019s left to do is figure out how to load the package, speak with a certain bard, and butt heads\u2026"}, {"title": "Liquid Rage \u2013 S1:E23", "date": "Tue, 21 May 2019", "duration": "57:50", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode023.mp3", "season": "1", "episode": "23", "description": "It\u2019s all smooth sailing from here as the Cog Crew coasts through the skies, patiently waiting until they arrive in Falas. Listen in as the group gets a chance to meet the new passengers, learn what to do with a body and generally has a relaxed time aboard the Gambler. Reggie\u2026"}, {"title": "Lease A New Sabin \u2013 S1:E24", "date": "Fri, 31 May 2019", "duration": "34:44", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode024.mp3", "season": "1", "episode": "24", "description": "The Gambler is under siege. No one can be trusted. The entire airship has been taken over, from the Captain\u2019s Quarters to the Engine Room. If the Cog Crew isn\u2019t careful, everything they\u2019ve worked for will be for nothing. Not only that, but the Captain has to Nova that he has a\u2026"}, {"title": "Nevermind About Surprise \u2013 S1:E25", "date": "Tue, 25 Jun 2019", "duration": "25:54", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode025.mp3", "season": "1", "episode": "25", "description": "The Cog Crew continues their sweep through the Gambler, attempting to discover what their invaders are planning. This episode is shorter than normal, but the decision the group makes in this one will affect the rest of the adventure going forward. Music: \u201cEvil Incoming\" Kevin\u2026"}, {"title": "Castigation \u2013 S1:E26", "date": "Tue, 23 Jul 2019", "duration": "1:15:42", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode026.mp3", "season": "1", "episode": "26", "description": "The Cog Crew has battled their way through the Gambler and down below. They\u2019re tired, they\u2019re running out of ammunition and resources, and they\u2019re about to face the toughest fight of this campaign. Music: \u201cEvil Incoming\" Kevin MacLeod ( incompetech.com ) Licensed under Creative\u2026"}, {"title": "Owl Roar \u2013 S1:E27", "date": "Thu, 22 Aug 2019", "duration": "36:29", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode027.mp3", "season": "1", "episode": "27", "description": "While the deck of the Gambler has been cleared, victory can\u2019t be declared yet. Nova has vanished, the engine room is still being held, and the Cog Crew has some tough choices to make\u2026 Music: \u201cEvil Within\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By\u2026"}, {"title": "Well I\u2019m In Sort Of A Bad Position \u2013 S1:E28", "date": "Thu, 29 Aug 2019", "duration": "42:10", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode028.mp3", "season": "1", "episode": "28", "description": "Music: \"Evil lncoming\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/ \"Take A Chance\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By Attribution 4.0 License\u2026"}, {"title": "Mack Daddy Swayze \u2013 S1:E29", "date": "Sun, 08 Sep 2019", "duration": "28:19", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode029.mp3", "season": "1", "episode": "29", "description": "The Forged have their hands full with the interrogation of an enemy, while the fate of The Captain will be decided as Sabin makes his final decision. MUSIC: Music from https://filmmusic.io \"Impending Boom\" by Kevin MacLeod ( https://incompetech.com) License: CC BY (\u2026"}, {"title": "The Decision \u2013 S1:E30", "date": "Fri, 13 Sep 2019", "duration": "44:39", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode030.mp3", "season": "1", "episode": "30", "description": "The Cog Crew has dealt with nearly every issue on the Gambler. Everything but one. Niome. A decision must be made. MUSIC: Music from https://filmmusic.io \"Evil Incoming\" by Kevin MacLeod ( https://incompetech.com) License: CC BY ( http://creativecommons.org/licenses/by/4.0/)\u2026"}, {"title": "I\u2019ll Stop Trying To Remember Things \u2013 S1:E31", "date": "Mon, 23 Sep 2019", "duration": "42:13", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode031.mp3", "season": "1", "episode": "31", "description": "The end of Season One is approaching, and with that means wrapping things up. And we\u2019re not referring to just one of the party members\u2026 Music: \"Evil lncoming\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By Attribution 4.0 License\u2026"}, {"title": "The Return \u2013 S1:E32", "date": "Fri, 04 Oct 2019", "duration": "16:40", "audio_url": "https://s3.us-east-2.amazonaws.com/world-walkers/world-walkers-cog/WWC-Episode032.mp3", "season": "1", "episode": "32", "description": "The end of Season One is here\u2026 Music: \"Evil lncoming\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/ \"Lost Frontier\" Kevin MacLeod ( incompetech.com ) Licensed under Creative Commons: By\u2026"}, {"title": "Side Adventure \u2013 Jiggles\u2019 Day Out! \u2013 E1", "date": "Mon, 04 Nov 2019", "duration": "1:14:16", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWJiggles-001.mp3", "season": "1", "episode": "33", "description": "At long last, the long-awaited story of Jiggles' Day Out! Back in the beginning of Season One of World Walkers: Cog, Sabin had a little Porgi of a dog named Jiggles. When Sabin left Falas, he left Jiggles on his own. But what happened to him? And how do we find out?? The answer\u2026"}, {"title": "Side Adventure \u2013 Jiggles\u2019 Day Out! \u2013 E2", "date": "Wed, 04 Dec 2019", "duration": "1:11:20", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWJiggles-002.mp3", "season": "1", "episode": "34", "description": "In our last episode, our cast of canines found themselves in the house of Jiggles, only to find their noses rubbed in some trouble. Several bad dogs were discovered to be tearing up the house, and it\u2019s up to the Dog Crew to find out why! Let\u2019s sniff around and find out what\u2026"}, {"title": "Side Adventure \u2013 Jiggles\u2019 Day Out! \u2013 E3", "date": "Wed, 04 Dec 2019", "duration": "42:12", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWJiggles-003.mp3", "season": "1", "episode": "35", "description": "Will the Dog Crew discover what\u2019s happened to Jiggles? Will the Crimson Engine assert dominance? And will I be able to survive one more game? These questions and more are answered in Episode 3: Good Boys. Music: \u201cEvil Incoming\" Kevin MacLeod ( incompetech.com ) Licensed under\u2026"}, {"title": "Lost Episode \u2013 Can\u2019t Feel My Funk", "date": "Mon, 27 Jul 2020", "duration": "1:16:22", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-cog/WWC-00Funk.mp3", "season": "1", "episode": "36", "description": "For those that don't know, my brother Frank passed away recently. I want to make sure all of his recordings are out there so that those that want to hear him have the opportunity. This episode is an oldie from back before World Walkers: Cog was a podcast. We recorded this and I\u2026"}];
+let currentEpisodes = EPISODES;
+
+function renderEpisodes(eps) {
+  const list = document.getElementById('episodeList');
+  list.innerHTML = eps.map((ep, i) => {
+    const num = ep.episode || (eps.length - i);
+    const seasonLabel = ep.season ? 'S' + ep.season + ' · ' : '';
+    const hasDesc = ep.description && ep.description.length > 0;
+    const safeTitle = ep.title.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const safeDesc = hasDesc ? ep.description.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
+    return '<div class="episode" data-season="' + ep.season + '">' +
+      '<div class="episode-row">' +
+        '<span class="ep-num">' + num + '</span>' +
+        '<div class="ep-info">' +
+          '<div class="ep-title">' + safeTitle + '</div>' +
+          '<div class="ep-meta">' + seasonLabel + ep.date + (ep.duration ? ' · ' + ep.duration : '') + '</div>' +
+          (hasDesc ? '<div class="ep-desc" id="desc-' + i + '">' + safeDesc + '</div>' : '') +
+        '</div>' +
+        '<div class="ep-actions">' +
+          (hasDesc ? '<button class="expand-btn" data-desc="desc-' + i + '">More</button>' : '') +
+          '<button class="play-btn" data-index="' + i + '" title="Play">' +
+            '<svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>' +
+          '</button>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+
+  list.querySelectorAll('.play-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var ep = currentEpisodes[parseInt(btn.dataset.index)];
+      playEp(ep.audio_url, ep.title);
+    });
+  });
+  list.querySelectorAll('.expand-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var d = document.getElementById(btn.dataset.desc);
+      d.classList.toggle('open');
+      btn.textContent = d.classList.contains('open') ? 'Less' : 'More';
+    });
+  });
+}
+
+function playEp(url, title) {
+  var bar = document.getElementById('playerBar');
+  var audio = document.getElementById('audioPlayer');
+  var titleEl = document.getElementById('playerTitle');
+  audio.src = url;
+  titleEl.textContent = title;
+  bar.classList.add('active');
+  audio.play();
+  document.body.style.paddingBottom = '80px';
+}
+
+function closePlayer() {
+  var bar = document.getElementById('playerBar');
+  var audio = document.getElementById('audioPlayer');
+  audio.pause();
+  audio.src = '';
+  bar.classList.remove('active');
+  document.body.style.paddingBottom = '';
+}
+
+document.getElementById('playerClose').addEventListener('click', closePlayer);
+
+
+renderEpisodes(EPISODES);
+</script>
+</body>
+</html>
