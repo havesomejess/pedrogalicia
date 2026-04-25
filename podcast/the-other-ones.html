@@ -223,11 +223,11 @@
 </nav>
 
 <div class="show-hero">
-  <img src="../assets/ww-otherones-logo.jpg" alt="World Walkers: The Other Ones" class="show-logo">
+  <img src="../assets/ww-otherones-logo.jpg" alt="World Walkers: The Other Ones" class="show-logo" loading="lazy">
   <div class="show-hero-text">
     <p class="show-eyebrow">The World Walkers Universe · Spinoff</p>
     <h1 class="show-title">World Walkers: The Other Ones</h1>
-    <p class="show-desc">Taking place in the World Walkers Universe, The Other Ones is a hilarious actual play D&D podcast featuring a group of people that, when Destiny calls, hang up immediately. The original World Walkers cast — new characters, same beloved chaos.</p>
+    <p class="show-desc">Taking place in the World Walkers Universe, The Other Ones is a hilarious actual play D&D podcast featuring a group of people that, when Destiny calls, hang up immediately.</p>
     <p class="show-meta">7 Episodes &nbsp;·&nbsp; November 2019 – January 2020</p>
     <div class="show-actions">
       <a href="https://pedrogalicia.com/podcast/feed-otherones.xml" class="btn btn-primary" target="_blank" rel="noopener">RSS Feed</a>
@@ -251,7 +251,7 @@
   <div class="player-controls">
     <audio id="audioPlayer" controls preload="none"></audio>
   </div>
-  <button class="player-close" onclick="closePlayer()" title="Close">✕</button>
+  <button class="player-close" id="playerClose" title="Close">✕</button>
 </div>
 
 <footer>
@@ -268,51 +268,54 @@
 </footer>
 
 <script>
-const EPISODES = [{"title": "Pyramids And PR – S1:E1", "date": "Fri, 01 Nov 2019", "duration": "54:52", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode001.mp3", "season": "1", "episode": "1", "description": "Here’s what’s going on. After the original cast of World Walkers wrapped up Season 3 of World Walkers, we kept playing together. Originally we kept going with the original characters, which you can hear in The Lost Episodes. But after a bit, the group decided they wanted to play…"}, {"title": "Knock Off Berries – S1:E2", "date": "Fri, 01 Nov 2019", "duration": "41:53", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode002.mp3", "season": "1", "episode": "2", "description": "Legendary relics of untold power are scattered across the world of Menroth. Those who discover them have the opportunity to discover more about these items of power and their true origins. In the process, they will continue to shape not only their own destinies, but in time, the…"}, {"title": "The Sparkles Intensify – S1:E3", "date": "Thu, 07 Nov 2019", "duration": "1:13:56", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode003.mp3", "season": "1", "episode": "3", "description": "Megan McKay, who you may know from such esteemed endeavors as DoodleForFood.com , Dogs With Jobs, and even… WORLD WALKERS , joins the cast with her brand new character. Find out what happens when another joins the fray (even though Wes is absent this episode) as Unity burns and…"}, {"title": "RIP In Peace – S1:E4", "date": "Mon, 09 Dec 2019", "duration": "1:17:25", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode004.mp3", "season": "1", "episode": "4", "description": "The Other Ones make friends, have a heart to heart, and watch as the world burns… MUSIC: Music from https://filmmusic.io \"Darkling\" by Kevin MacLeod ( https://incompetech.com) License: CC BY ( http://creativecommons.org/licenses/by/4.0/) Music from https://filmmusic.io \"Awaiting…"}, {"title": "He Does SEEM To Be An Idiot, Though – S1:E5", "date": "Tue, 31 Dec 2019", "duration": "36:16", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode005.mp3", "season": "1", "episode": "5", "description": "The Other Ones continue surviving in the city of Unity, desperately trying to find a way to be viable in during this fire sale of an environment… MUSIC: Music from https://filmmusic.io \"Nostalgic Piano – \"Pseudo\" by Alexander Nakarada ( filmmusic.io) License: CC BY (…"}, {"title": "Home Is Where The Mom Is – S1:E6", "date": "Tue, 31 Dec 2019", "duration": "1:13:11", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode006.mp3", "season": "1", "episode": "6", "description": "With the loss of a beloved NPC, the group comes to terms with what exactly Chase brings to the group… MUSIC: Music from https://filmmusic.io \"Nostalgic Piano – \"Pseudo\" by Alexander Nakarada ( filmmusic.io) License: CC BY ( http://creativecommons.org/licenses/by/4.0/) Music from…"}, {"title": "Is This Loss? – The End", "date": "Thu, 23 Jan 2020", "duration": "1:13:32", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode007.mp3", "season": "1", "episode": "7", "description": "The final episode of The Other Ones. MUSIC: Music from https://filmmusic.io \"Shangai Chase – Epic Cinematic Drums\" by Alexander Nakarada ( filmmusic.io) License: CC BY ( http://creativecommons.org/licenses/by/4.0/) Music from https://filmmusic.io \"Marty Gots A Plan\" by Kevin…"}];
-
-let currentAudio = null;
-
-function filterSeason(s) {
-  document.querySelectorAll('.season-tab').forEach(t => t.classList.remove('active'));
-  event.target.classList.add('active');
-  renderEpisodes(s === 'all' ? EPISODES : EPISODES.filter(e => e.season === s));
-}
+const EPISODES = [{"title": "Pyramids And PR \u2013 S1:E1", "date": "Fri, 01 Nov 2019", "duration": "54:52", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode001.mp3", "season": "1", "episode": "1", "description": "Here\u2019s what\u2019s going on. After the original cast of World Walkers wrapped up Season 3 of World Walkers, we kept playing together. Originally we kept going with the original characters, which you can hear in The Lost Episodes. But after a bit, the group decided they wanted to play\u2026"}, {"title": "Knock Off Berries \u2013 S1:E2", "date": "Fri, 01 Nov 2019", "duration": "41:53", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode002.mp3", "season": "1", "episode": "2", "description": "Legendary relics of untold power are scattered across the world of Menroth. Those who discover them have the opportunity to discover more about these items of power and their true origins. In the process, they will continue to shape not only their own destinies, but in time, the\u2026"}, {"title": "The Sparkles Intensify \u2013 S1:E3", "date": "Thu, 07 Nov 2019", "duration": "1:13:56", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode003.mp3", "season": "1", "episode": "3", "description": "Megan McKay, who you may know from such esteemed endeavors as DoodleForFood.com , Dogs With Jobs, and even\u2026 WORLD WALKERS , joins the cast with her brand new character. Find out what happens when another joins the fray (even though Wes is absent this episode) as Unity burns and\u2026"}, {"title": "RIP In Peace \u2013 S1:E4", "date": "Mon, 09 Dec 2019", "duration": "1:17:25", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode004.mp3", "season": "1", "episode": "4", "description": "The Other Ones make friends, have a heart to heart, and watch as the world burns\u2026 MUSIC: Music from https://filmmusic.io \"Darkling\" by Kevin MacLeod ( https://incompetech.com) License: CC BY ( http://creativecommons.org/licenses/by/4.0/) Music from https://filmmusic.io \"Awaiting\u2026"}, {"title": "He Does SEEM To Be An Idiot, Though \u2013 S1:E5", "date": "Tue, 31 Dec 2019", "duration": "36:16", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode005.mp3", "season": "1", "episode": "5", "description": "The Other Ones continue surviving in the city of Unity, desperately trying to find a way to be viable in during this fire sale of an environment\u2026 MUSIC: Music from https://filmmusic.io \"Nostalgic Piano \u2013 \"Pseudo\" by Alexander Nakarada ( filmmusic.io) License: CC BY (\u2026"}, {"title": "Home Is Where The Mom Is \u2013 S1:E6", "date": "Tue, 31 Dec 2019", "duration": "1:13:11", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode006.mp3", "season": "1", "episode": "6", "description": "With the loss of a beloved NPC, the group comes to terms with what exactly Chase brings to the group\u2026 MUSIC: Music from https://filmmusic.io \"Nostalgic Piano \u2013 \"Pseudo\" by Alexander Nakarada ( filmmusic.io) License: CC BY ( http://creativecommons.org/licenses/by/4.0/) Music from\u2026"}, {"title": "Is This Loss? \u2013 The End", "date": "Thu, 23 Jan 2020", "duration": "1:13:32", "audio_url": "https://world-walkers.s3.us-east-2.amazonaws.com/world-walkers-too/WW-TOO-Episode007.mp3", "season": "1", "episode": "7", "description": "The final episode of The Other Ones. MUSIC: Music from https://filmmusic.io \"Shangai Chase \u2013 Epic Cinematic Drums\" by Alexander Nakarada ( filmmusic.io) License: CC BY ( http://creativecommons.org/licenses/by/4.0/) Music from https://filmmusic.io \"Marty Gots A Plan\" by Kevin\u2026"}];
+let currentEpisodes = EPISODES;
 
 function renderEpisodes(eps) {
   const list = document.getElementById('episodeList');
   list.innerHTML = eps.map((ep, i) => {
     const num = ep.episode || (eps.length - i);
-    const seasonLabel = ep.season ? `S${ep.season} · ` : '';
-    return `
-    <div class="episode" data-season="${ep.season}">
-      <div class="episode-row">
-        <span class="ep-num">${num}</span>
-        <div class="ep-info">
-          <div class="ep-title">${ep.title}</div>
-          <div class="ep-meta">${seasonLabel}${ep.date}${ep.duration ? ' · ' + ep.duration : ''}</div>
-          <div class="ep-desc" id="desc-${i}">${ep.description}</div>
-        </div>
-        <div class="ep-actions">
-          ${ep.description ? `<button class="expand-btn" onclick="toggleDesc(${i}, this)">More</button>` : ''}
-          <button class="play-btn" onclick="playEp('${ep.audio_url.replace(/'/g,"\'")}',${JSON.stringify(ep.title)})" title="Play">
-            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>`;
+    const seasonLabel = ep.season ? 'S' + ep.season + ' · ' : '';
+    const hasDesc = ep.description && ep.description.length > 0;
+    const safeTitle = ep.title.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const safeDesc = hasDesc ? ep.description.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
+    return '<div class="episode" data-season="' + ep.season + '">' +
+      '<div class="episode-row">' +
+        '<span class="ep-num">' + num + '</span>' +
+        '<div class="ep-info">' +
+          '<div class="ep-title">' + safeTitle + '</div>' +
+          '<div class="ep-meta">' + seasonLabel + ep.date + (ep.duration ? ' · ' + ep.duration : '') + '</div>' +
+          (hasDesc ? '<div class="ep-desc" id="desc-' + i + '">' + safeDesc + '</div>' : '') +
+        '</div>' +
+        '<div class="ep-actions">' +
+          (hasDesc ? '<button class="expand-btn" data-desc="desc-' + i + '">More</button>' : '') +
+          '<button class="play-btn" data-index="' + i + '" title="Play">' +
+            '<svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>' +
+          '</button>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
   }).join('');
-}
 
-function toggleDesc(i, btn) {
-  const d = document.getElementById('desc-' + i);
-  d.classList.toggle('open');
-  btn.textContent = d.classList.contains('open') ? 'Less' : 'More';
+  list.querySelectorAll('.play-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var ep = currentEpisodes[parseInt(btn.dataset.index)];
+      playEp(ep.audio_url, ep.title);
+    });
+  });
+  list.querySelectorAll('.expand-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var d = document.getElementById(btn.dataset.desc);
+      d.classList.toggle('open');
+      btn.textContent = d.classList.contains('open') ? 'Less' : 'More';
+    });
+  });
 }
 
 function playEp(url, title) {
-  const bar = document.getElementById('playerBar');
-  const audio = document.getElementById('audioPlayer');
-  const titleEl = document.getElementById('playerTitle');
+  var bar = document.getElementById('playerBar');
+  var audio = document.getElementById('audioPlayer');
+  var titleEl = document.getElementById('playerTitle');
   audio.src = url;
   titleEl.textContent = title;
   bar.classList.add('active');
@@ -321,13 +324,16 @@ function playEp(url, title) {
 }
 
 function closePlayer() {
-  const bar = document.getElementById('playerBar');
-  const audio = document.getElementById('audioPlayer');
+  var bar = document.getElementById('playerBar');
+  var audio = document.getElementById('audioPlayer');
   audio.pause();
   audio.src = '';
   bar.classList.remove('active');
   document.body.style.paddingBottom = '';
 }
+
+document.getElementById('playerClose').addEventListener('click', closePlayer);
+
 
 renderEpisodes(EPISODES);
 </script>
